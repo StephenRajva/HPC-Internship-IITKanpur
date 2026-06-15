@@ -251,4 +251,4 @@ make
 
 ## Acknowledgements
 
-This work was carried out under the **SURGE Fellowship 2026** at IIT Kanpur, supervised by **Prof. Preeti Malakar**, Department of Computer Science & Engineering. The fellowship is supported by the Science and Engineering Research Board (SERB), Government of India.
+This work was carried out under the **SURGE Fellowship 2026** at IIT Kanpur, supervised by **Prof. Preeti Malakar**, Department of Computer Science & Engineering.
