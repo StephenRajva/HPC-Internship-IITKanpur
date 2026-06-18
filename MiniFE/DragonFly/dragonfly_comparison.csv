@@ -1,0 +1,4 @@
+Topology,SendBits,Packets,Latency,Stalls
+DFly4,782312,607,285,0
+DFly16,787928,632,377,0
+DFly64,803912,1597,459,0
