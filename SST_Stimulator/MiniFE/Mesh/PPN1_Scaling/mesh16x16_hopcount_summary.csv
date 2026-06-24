@@ -1,0 +1,13 @@
+Pattern,Ranks,Avg HopCount
+Allreduce,1024,23.33
+Bcast,1024,33.03
+Reduce,1024,33.03
+Allgather,1024,23.33
+Barrier,1024,22.0
+PingPong 0-1,2,3
+PingPong 0-31,2,33
+PingPong 0-992,2,33
+PingPong 0-1023,2,64
+PingPong 512-513,2,3
+PingPong 511-512,2,34
+Overall,-,27.7

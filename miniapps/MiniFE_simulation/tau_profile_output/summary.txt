@@ -1,0 +1,291 @@
+Reading Profile files in profile.*
+
+NODE 0;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          165          974           1           2     974137 .TAU application
+ 82.9        0.055          807           1           1     807592 taupreload_main
+ 82.9           17          807           1        3046     807537 main [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {86,0}]
+ 72.4            4          705           1           3     705399 miniFE::initialize_mpi(int, char**, int&, int&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {116,0}]
+ 72.0          701          701           1           0     701290 MPI_Init() 
+  6.8        0.045           66           1           1      66549 miniFE::finalize_mpi() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {129,0}]
+  6.8           66           66           1           0      66504 MPI_Finalize() 
+  0.6            4            5           1          16       5405 add_params_to_yaml(YAML_Doc&, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {191,0}]
+  0.5            5            5           1          12       5057 YAML_Doc::generateYAML[abi:cxx11]() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {32,0}]
+  0.3        0.007            2           1           2       2651 miniFE::broadcast_parameters(miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {86,0}]
+  0.3            1            2           2           2       1322 MPI_Bcast() 
+  0.2            2            2          99           0         21 MPI Collective Sync 
+  0.2        0.671            1          92          92         16 MPI_Allreduce() 
+  0.1            1            1           1           1       1114 miniFE::get_parameters(int, char**, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {54,0}]
+  0.1        0.828        0.838           2           2        419 MPI_Reduce() 
+  0.1        0.782        0.782        2495           0          0 miniFE::mytimer() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/mytimer.cpp} {112,0}]
+  0.1        0.044        0.646          23          46         28 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {24,0}]
+  0.1        0.608         0.61           1           1        610 _GLOBAL__sub_I__ZN6miniFE11is_neighborERK3BoxS2_ [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.1        0.593        0.593          23           0         26 YAML_Element::convert_double_to_string[abi:cxx11](double) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {95,0}]
+  0.0        0.208        0.208         105           0          2 MPI_Send() 
+  0.0        0.032        0.097           1           1         97 YAML_Doc::~YAML_Doc() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {25,0}]
+  0.0        0.084        0.084         105           0          1 MPI_Wait() 
+  0.0        0.038        0.084           6          12         14 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {52,0}]
+  0.0        0.069        0.082           3           3         27 MPI_Allgather() 
+  0.0        0.065        0.065          61          60          1 YAML_Element::~YAML_Element() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {12,0}]
+  0.0        0.045        0.064           5          10         13 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {32,0}]
+  0.0        0.044        0.044           6           0          7 YAML_Element::convert_size_t_to_string[abi:cxx11](unsigned long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {116,0}]
+  0.0        0.035        0.043          24          24          2 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {60,0}]
+  0.0         0.04         0.04          60          48          1 YAML_Element::printYAML(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {86,0}]
+  0.0        0.027        0.028           1           1         28 add_timestring_to_yaml(YAML_Doc&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {232,0}]
+  0.0        0.025        0.025         105           0          0 MPI_Irecv() 
+  0.0        0.024        0.024          54           0          0 YAML_Element::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {72,0}]
+  0.0        0.023        0.023          60           0          0 YAML_Element::YAML_Element(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {7,0}]
+  0.0        0.015        0.023           2           4         12 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, long long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {42,0}]
+  0.0        0.009        0.022           1          20         22 add_configuration_to_yaml(YAML_Doc&, int, int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {209,0}]
+  0.0        0.016        0.016           5           0          3 YAML_Element::convert_int_to_string[abi:cxx11](int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {100,0}]
+  0.0         0.01         0.01          41           0          0 MPI_Comm_size() 
+  0.0        0.007        0.007           2           0          4 YAML_Element::convert_long_long_to_string[abi:cxx11](long long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {108,0}]
+  0.0        0.004        0.004           7           6          1 box_partition(int, int, int, Box const&, Box*) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/BoxPartition.cpp} {82,0}]
+  0.0        0.002        0.002          12           0          0 MPI_Comm_rank() 
+  0.0        0.002        0.002           1           0          2 Mantevo::read_args_into_string(int, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/param_utils.cpp} {37,0}]
+  0.0        0.002        0.002           1           0          2 YAML_Doc::YAML_Doc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {17,0}]
+  0.0        0.002        0.002           1           0          2 __static_initialization_and_destruction_0() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 0, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         3         24          4      10.67      9.428  Message size for all-gather
+        92         32          4      8.522       3.02  Message size for all-reduce
+         2         52          4         28         24  Message size for broadcast
+         2          8          8          8          0  Message size for reduce
+---------------------------------------------------------------------------------------
+
+NODE 1;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          165          984           1           2     984118 .TAU application
+ 83.1        0.066          817           1           1     817672 taupreload_main
+ 83.1           15          817           1        2965     817606 main [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {86,0}]
+ 71.6            3          704           1           3     704891 miniFE::initialize_mpi(int, char**, int&, int&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {116,0}]
+ 71.3          701          701           1           0     701216 MPI_Init() 
+  7.9        0.009           78           1           1      78212 miniFE::finalize_mpi() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {129,0}]
+  7.9           78           78           1           0      78203 MPI_Finalize() 
+  0.9            9            9          99           0         92 MPI Collective Sync 
+  0.8            1            7          92          92         85 MPI_Allreduce() 
+  0.4            3            3           1           1       3672 YAML_Doc::~YAML_Doc() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {25,0}]
+  0.3        0.005            2           1           2       2653 miniFE::broadcast_parameters(miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {86,0}]
+  0.3            1            2           2           2       1324 MPI_Bcast() 
+  0.2            1            1           1           1       1689 miniFE::get_parameters(int, char**, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {54,0}]
+  0.1        0.072            1           3           3        364 MPI_Allgather() 
+  0.1        0.829         0.92           2           2        460 MPI_Reduce() 
+  0.1        0.881        0.883           1           1        883 _GLOBAL__sub_I__ZN6miniFE11is_neighborERK3BoxS2_ [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.1        0.823        0.823        2495           0          0 miniFE::mytimer() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/mytimer.cpp} {112,0}]
+  0.0        0.352        0.352         105           0          3 MPI_Send() 
+  0.0        0.082        0.082         105           0          1 MPI_Wait() 
+  0.0        0.019        0.019         105           0          0 MPI_Irecv() 
+  0.0        0.011        0.011          41           0          0 MPI_Comm_size() 
+  0.0        0.006        0.006          12           0          0 MPI_Comm_rank() 
+  0.0        0.006        0.006           1           0          6 YAML_Element::~YAML_Element() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {12,0}]
+  0.0        0.004        0.004           7           6          1 box_partition(int, int, int, Box const&, Box*) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/BoxPartition.cpp} {82,0}]
+  0.0        0.003        0.003           1           0          3 Mantevo::read_args_into_string(int, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/param_utils.cpp} {37,0}]
+  0.0        0.003        0.003           1           0          3 YAML_Doc::YAML_Doc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {17,0}]
+  0.0        0.002        0.002           1           0          2 __static_initialization_and_destruction_0() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 1, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         3         24          4      10.67      9.428  Message size for all-gather
+        92         32          4      8.522       3.02  Message size for all-reduce
+         2         52          4         28         24  Message size for broadcast
+         2          8          8          8          0  Message size for reduce
+---------------------------------------------------------------------------------------
+
+NODE 2;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          165          977           1           2     977229 .TAU application
+ 83.0        0.048          810           1           1     810695 taupreload_main
+ 83.0           15          810           1        2965     810647 main [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {86,0}]
+ 72.1            3          704           1           3     704681 miniFE::initialize_mpi(int, char**, int&, int&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {116,0}]
+ 71.8          701          701           1           0     701372 MPI_Init() 
+  7.3         0.01           71           1           1      71460 miniFE::finalize_mpi() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {129,0}]
+  7.3           71           71           1           0      71450 MPI_Finalize() 
+  1.0            9            9          99           0         99 MPI Collective Sync 
+  0.9        0.641            8          92          92         91 MPI_Allreduce() 
+  0.3            3            3           1           1       3362 YAML_Doc::~YAML_Doc() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {25,0}]
+  0.3        0.005            2           1           2       2651 miniFE::broadcast_parameters(miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {86,0}]
+  0.3            1            2           2           2       1323 MPI_Bcast() 
+  0.2            1            1           1           1       1800 miniFE::get_parameters(int, char**, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {54,0}]
+  0.1        0.832        0.924           2           2        462 MPI_Reduce() 
+  0.1        0.881        0.886           1           1        886 _GLOBAL__sub_I__ZN6miniFE11is_neighborERK3BoxS2_ [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.1        0.029        0.652           3           3        217 MPI_Allgather() 
+  0.1        0.534        0.534        2495           0          0 miniFE::mytimer() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/mytimer.cpp} {112,0}]
+  0.0        0.387        0.387         105           0          4 MPI_Send() 
+  0.0        0.088        0.088         105           0          1 MPI_Wait() 
+  0.0        0.017        0.017         105           0          0 MPI_Irecv() 
+  0.0         0.01         0.01          41           0          0 MPI_Comm_size() 
+  0.0        0.005        0.005           1           0          5 __static_initialization_and_destruction_0() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.0        0.005        0.005           7           6          1 box_partition(int, int, int, Box const&, Box*) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/BoxPartition.cpp} {82,0}]
+  0.0        0.003        0.003           1           0          3 YAML_Doc::YAML_Doc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {17,0}]
+  0.0        0.003        0.003           1           0          3 YAML_Element::~YAML_Element() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {12,0}]
+  0.0        0.002        0.002           1           0          2 Mantevo::read_args_into_string(int, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/param_utils.cpp} {37,0}]
+  0.0        0.001        0.001          12           0          0 MPI_Comm_rank() 
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 2, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         3         24          4      10.67      9.428  Message size for all-gather
+        92         32          4      8.522       3.02  Message size for all-reduce
+         2         52          4         28         24  Message size for broadcast
+         2          8          8          8          0  Message size for reduce
+---------------------------------------------------------------------------------------
+
+NODE 3;CONTEXT 0;THREAD 0:
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          165          982           1           2     982030 .TAU application
+ 83.0        0.058          815           1           1     815263 taupreload_main
+ 83.0           14          815           1        2965     815205 main [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {86,0}]
+ 72.0            4          706           1           3     706831 miniFE::initialize_mpi(int, char**, int&, int&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {116,0}]
+ 71.5          702          702           1           0     702274 MPI_Init() 
+  7.7        0.027           75           1           1      75420 miniFE::finalize_mpi() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {129,0}]
+  7.7           75           75           1           0      75393 MPI_Finalize() 
+  0.9            8            8          99           0         90 MPI Collective Sync 
+  0.8            1            7          92          92         83 MPI_Allreduce() 
+  0.4            4            4           1           1       4250 YAML_Doc::~YAML_Doc() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {25,0}]
+  0.3        0.005            2           1           2       2653 miniFE::broadcast_parameters(miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {86,0}]
+  0.3            1            2           2           2       1324 MPI_Bcast() 
+  0.1        0.069            1           3           3        365 MPI_Allgather() 
+  0.1            1            1           1           1       1086 _GLOBAL__sub_I__ZN6miniFE11is_neighborERK3BoxS2_ [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.1            1            1           1           1       1081 miniFE::get_parameters(int, char**, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {54,0}]
+  0.1        0.823        0.915           2           2        458 MPI_Reduce() 
+  0.1        0.746        0.746        2495           0          0 miniFE::mytimer() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/mytimer.cpp} {112,0}]
+  0.0         0.36         0.36         105           0          3 MPI_Wait() 
+  0.0        0.119        0.119         105           0          1 MPI_Send() 
+  0.0        0.032        0.032         105           0          0 MPI_Irecv() 
+  0.0        0.013        0.013          41           0          0 MPI_Comm_size() 
+  0.0        0.006        0.006          12           0          0 MPI_Comm_rank() 
+  0.0        0.005        0.005           7           6          1 box_partition(int, int, int, Box const&, Box*) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/BoxPartition.cpp} {82,0}]
+  0.0        0.004        0.004           1           0          4 Mantevo::read_args_into_string(int, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/param_utils.cpp} {37,0}]
+  0.0        0.004        0.004           1           0          4 YAML_Doc::YAML_Doc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {17,0}]
+  0.0        0.003        0.003           1           0          3 YAML_Element::~YAML_Element() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {12,0}]
+  0.0        0.003        0.003           1           0          3 __static_initialization_and_destruction_0() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+---------------------------------------------------------------------------------------
+
+USER EVENTS Profile :NODE 3, CONTEXT 0, THREAD 0
+---------------------------------------------------------------------------------------
+NumSamples   MaxValue   MinValue  MeanValue  Std. Dev.  Event Name
+---------------------------------------------------------------------------------------
+         3         24          4      10.67      9.428  Message size for all-gather
+        92         32          4      8.522       3.02  Message size for all-reduce
+         2         52          4         28         24  Message size for broadcast
+         2          8          8          8          0  Message size for reduce
+---------------------------------------------------------------------------------------
+
+FUNCTION SUMMARY (total):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          662        3,917           4           8     979378 .TAU application
+ 83.0        0.227        3,251           4           4     812806 taupreload_main
+ 83.0           62        3,250           4       11941     812749 main [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {86,0}]
+ 72.0           15        2,821           4          12     705450 miniFE::initialize_mpi(int, char**, int&, int&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {116,0}]
+ 71.6        2,806        2,806           4           0     701538 MPI_Init() 
+  7.4        0.091          291           4           4      72910 miniFE::finalize_mpi() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {129,0}]
+  7.4          291          291           4           0      72888 MPI_Finalize() 
+  0.8           29           29         396           0         75 MPI Collective Sync 
+  0.6            3           25         368         368         69 MPI_Allreduce() 
+  0.3           11           11           4           4       2845 YAML_Doc::~YAML_Doc() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {25,0}]
+  0.3        0.022           10           4           8       2652 miniFE::broadcast_parameters(miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {86,0}]
+  0.3            5           10           8           8       1323 MPI_Bcast() 
+  0.1            5            5           4           4       1421 miniFE::get_parameters(int, char**, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {54,0}]
+  0.1            4            5           1          16       5405 add_params_to_yaml(YAML_Doc&, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {191,0}]
+  0.1            5            5           1          12       5057 YAML_Doc::generateYAML[abi:cxx11]() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {32,0}]
+  0.1            3            3           8           8        450 MPI_Reduce() 
+  0.1            3            3           4           4        866 _GLOBAL__sub_I__ZN6miniFE11is_neighborERK3BoxS2_ [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.1        0.239            2          12          12        243 MPI_Allgather() 
+  0.1            2            2        9980           0          0 miniFE::mytimer() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/mytimer.cpp} {112,0}]
+  0.0            1            1         420           0          3 MPI_Send() 
+  0.0        0.044        0.646          23          46         28 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {24,0}]
+  0.0        0.614        0.614         420           0          1 MPI_Wait() 
+  0.0        0.593        0.593          23           0         26 YAML_Element::convert_double_to_string[abi:cxx11](double) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {95,0}]
+  0.0        0.093        0.093         420           0          0 MPI_Irecv() 
+  0.0        0.038        0.084           6          12         14 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {52,0}]
+  0.0        0.077        0.077          64          60          1 YAML_Element::~YAML_Element() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {12,0}]
+  0.0        0.045        0.064           5          10         13 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {32,0}]
+  0.0        0.044        0.044         164           0          0 MPI_Comm_size() 
+  0.0        0.044        0.044           6           0          7 YAML_Element::convert_size_t_to_string[abi:cxx11](unsigned long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {116,0}]
+  0.0        0.035        0.043          24          24          2 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {60,0}]
+  0.0         0.04         0.04          60          48          1 YAML_Element::printYAML(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {86,0}]
+  0.0        0.027        0.028           1           1         28 add_timestring_to_yaml(YAML_Doc&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {232,0}]
+  0.0        0.024        0.024          54           0          0 YAML_Element::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {72,0}]
+  0.0        0.023        0.023          60           0          0 YAML_Element::YAML_Element(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {7,0}]
+  0.0        0.015        0.023           2           4         12 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, long long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {42,0}]
+  0.0        0.009        0.022           1          20         22 add_configuration_to_yaml(YAML_Doc&, int, int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {209,0}]
+  0.0        0.018        0.018          28          24          1 box_partition(int, int, int, Box const&, Box*) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/BoxPartition.cpp} {82,0}]
+  0.0        0.016        0.016           5           0          3 YAML_Element::convert_int_to_string[abi:cxx11](int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {100,0}]
+  0.0        0.015        0.015          48           0          0 MPI_Comm_rank() 
+  0.0        0.012        0.012           4           0          3 YAML_Doc::YAML_Doc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {17,0}]
+  0.0        0.012        0.012           4           0          3 __static_initialization_and_destruction_0() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.0        0.011        0.011           4           0          3 Mantevo::read_args_into_string(int, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/param_utils.cpp} {37,0}]
+  0.0        0.007        0.007           2           0          4 YAML_Element::convert_long_long_to_string[abi:cxx11](long long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {108,0}]
+
+FUNCTION SUMMARY (mean):
+---------------------------------------------------------------------------------------
+%Time    Exclusive    Inclusive       #Call      #Subrs  Inclusive Name
+              msec   total msec                          usec/call 
+---------------------------------------------------------------------------------------
+100.0          165          979           1           2     979378 .TAU application
+ 83.0       0.0568          812           1           1     812806 taupreload_main
+ 83.0           15          812           1     2985.25     812749 main [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {86,0}]
+ 72.0            3          705           1           3     705450 miniFE::initialize_mpi(int, char**, int&, int&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {116,0}]
+ 71.6          701          701           1           0     701538 MPI_Init() 
+  7.4       0.0227           72           1           1      72910 miniFE::finalize_mpi() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {129,0}]
+  7.4           72           72           1           0      72888 MPI_Finalize() 
+  0.8            7            7          99           0         75 MPI Collective Sync 
+  0.6         0.87            6          92          92         69 MPI_Allreduce() 
+  0.3            2            2           1           1       2845 YAML_Doc::~YAML_Doc() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {25,0}]
+  0.3       0.0055            2           1           2       2652 miniFE::broadcast_parameters(miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {86,0}]
+  0.3            1            2           2           2       1323 MPI_Bcast() 
+  0.1            1            1           1           1       1421 miniFE::get_parameters(int, char**, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/utils.cpp} {54,0}]
+  0.1            1            1        0.25           4       5405 add_params_to_yaml(YAML_Doc&, miniFE::Parameters&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {191,0}]
+  0.1            1            1        0.25           3       5057 YAML_Doc::generateYAML[abi:cxx11]() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {32,0}]
+  0.1        0.828        0.899           2           2        450 MPI_Reduce() 
+  0.1        0.863        0.866           1           1        866 _GLOBAL__sub_I__ZN6miniFE11is_neighborERK3BoxS2_ [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.1       0.0597         0.73           3           3        243 MPI_Allgather() 
+  0.1        0.721        0.721        2495           0          0 miniFE::mytimer() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/mytimer.cpp} {112,0}]
+  0.0        0.267        0.267         105           0          3 MPI_Send() 
+  0.0        0.011        0.162        5.75        11.5         28 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, double) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {24,0}]
+  0.0        0.153        0.153         105           0          1 MPI_Wait() 
+  0.0        0.148        0.148        5.75           0         26 YAML_Element::convert_double_to_string[abi:cxx11](double) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {95,0}]
+  0.0       0.0232       0.0232         105           0          0 MPI_Irecv() 
+  0.0       0.0095        0.021         1.5           3         14 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {52,0}]
+  0.0       0.0192       0.0192          16          15          1 YAML_Element::~YAML_Element() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {12,0}]
+  0.0       0.0112        0.016        1.25         2.5         13 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {32,0}]
+  0.0        0.011        0.011          41           0          0 MPI_Comm_size() 
+  0.0        0.011        0.011         1.5           0          7 YAML_Element::convert_size_t_to_string[abi:cxx11](unsigned long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {116,0}]
+  0.0      0.00875       0.0107           6           6          2 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {60,0}]
+  0.0         0.01         0.01          15          12          1 YAML_Element::printYAML(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {86,0}]
+  0.0      0.00675        0.007        0.25        0.25         28 add_timestring_to_yaml(YAML_Doc&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {232,0}]
+  0.0        0.006        0.006        13.5           0          0 YAML_Element::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {72,0}]
+  0.0      0.00575      0.00575          15           0          0 YAML_Element::YAML_Element(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {7,0}]
+  0.0      0.00375      0.00575         0.5           1         12 YAML_Element::add(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, long long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {42,0}]
+  0.0      0.00225       0.0055        0.25           5         22 add_configuration_to_yaml(YAML_Doc&, int, int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {209,0}]
+  0.0       0.0045       0.0045           7           6          1 box_partition(int, int, int, Box const&, Box*) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/BoxPartition.cpp} {82,0}]
+  0.0        0.004        0.004        1.25           0          3 YAML_Element::convert_int_to_string[abi:cxx11](int) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {100,0}]
+  0.0      0.00375      0.00375          12           0          0 MPI_Comm_rank() 
+  0.0        0.003        0.003           1           0          3 YAML_Doc::YAML_Doc(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Doc.cpp} {17,0}]
+  0.0        0.003        0.003           1           0          3 __static_initialization_and_destruction_0() [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/main.cpp} {247,0}]
+  0.0      0.00275      0.00275           1           0          3 Mantevo::read_args_into_string(int, char**, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/../utils/param_utils.cpp} {37,0}]
+  0.0      0.00175      0.00175         0.5           0          4 YAML_Element::convert_long_long_to_string[abi:cxx11](long long) [{/mnt/d/SST_Install/task1/sst-miniapps-simulation/miniFE/ref/src/YAML_Element.cpp} {108,0}]

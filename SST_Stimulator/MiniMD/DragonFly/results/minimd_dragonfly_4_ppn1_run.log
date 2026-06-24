@@ -1,0 +1,33 @@
+==================================================
+ Topology          : Dragonfly (size 4) - MiniMD
+ hosts_per_router  : 1
+ routers_per_group : 2
+ num_groups        : 2
+ Total nodes       : 4
+ Total MPI ranks   : 4
+ PPN (ranks/node)  : 1   <-- should be 1
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniMD/DragonFly/results/minimd_dragonfly_4_ppn1_nodes4_stats.csv
+==================================================
+180000:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=4
+180000:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=4
+180000:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=4
+180000:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=4
+161473537282:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=4
+161473537282:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=4
+AllPingPong: total time 161476.347 us, loop 325, bufLen 20510, latency 248.425 us. bandwidth 0.082560 GB/s
+161476527798:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=4
+161476527798:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=4
+317171011766:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=4
+317171011766:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=4
+AllPingPong: total time 155695.826 us, loop 325, bufLen 9000, latency 239.532 us. bandwidth 0.037573 GB/s
+317172353865:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=4
+317172353865:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=4
+478645711449:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=4
+478645711449:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=4
+AllPingPong: total time 161476.348 us, loop 325, bufLen 20510, latency 248.425 us. bandwidth 0.082560 GB/s
+478648701965:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=4
+478648701965:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=4
+AllPingPong: total time 155695.827 us, loop 325, bufLen 9000, latency 239.532 us. bandwidth 0.037573 GB/s
+Allreduce: ranks 4, loop 40, 1 double(s), latency 2454.565 us
+Barrier: ranks 4, loop 15, latency 1395.619 us
+Simulation is complete, simulated time: 753.467 ms

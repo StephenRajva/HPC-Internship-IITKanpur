@@ -1,0 +1,35 @@
+==================================================
+ Topology          : Dragonfly (size 4)
+ hosts_per_router  : 1
+ routers_per_group : 2
+ num_groups        : 2
+ Total nodes       : 4
+ Total MPI ranks   : 4
+ PPN (ranks/node)  : 1   <-- should be 1
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/DragonFly/results/dragonfly_4_ppn1_nodes4_stats.csv
+==================================================
+Allreduce: ranks 4, loop 92, 1 double(s), latency 3.830 us
+generate
+355809533:0:0:EmberEngine:Reduce:generate:37: rank=0 size=4
+generate
+356609133:0:2:EmberEngine:Reduce:generate:37: rank=2 size=4
+generate
+356849133:0:1:EmberEngine:Reduce:generate:37: rank=1 size=4
+generate
+Bcast: ranks 4, loop 2, bytes 56, latency 1.763 us
+357648333:0:3:EmberEngine:Reduce:generate:37: rank=3 size=4
+Allgather: ranks 4, loop 3, bytes 12, latency 4.061 us
+Barrier: ranks 4, loop 99, latency 3.829 us
+773781133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=4
+rank2=1 messageSize=256 iterations=35
+774580333:0:2:EmberEngine:PingPong:generate:65: rank=2 size=4
+774580733:0:1:EmberEngine:PingPong:generate:65: rank=1 size=4
+775380333:0:3:EmberEngine:PingPong:generate:65: rank=3 size=4
+PingPong: otherRank 1, total time 69.392 us, loop 35, bufLen 256, latency 0.991 us. bandwidth 0.258243 GB/s
+843173133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=4
+rank2=2 messageSize=256 iterations=35
+PingPong: otherRank 2, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+912445133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=4
+rank2=3 messageSize=256 iterations=35
+PingPong: otherRank 3, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+Simulation is complete, simulated time: 990.657 us

@@ -1,0 +1,59 @@
+==================================================
+ Topology          : Dragonfly (size 16)
+ hosts_per_router  : 1
+ routers_per_group : 4
+ num_groups        : 4
+ Total nodes       : 16
+ Total MPI ranks   : 16
+ PPN (ranks/node)  : 1   <-- should be 1
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/DragonFly/results/dragonfly_16_ppn1_nodes16_stats.csv
+==================================================
+Allreduce: ranks 16, loop 92, 1 double(s), latency 8.044 us
+generate
+743482333:0:0:EmberEngine:Reduce:generate:37: rank=0 size=16
+generate
+744911933:0:1:EmberEngine:Reduce:generate:37: rank=1 size=16
+generate
+745041533:0:2:EmberEngine:Reduce:generate:37: rank=2 size=16
+generate
+745841533:0:3:EmberEngine:Reduce:generate:37: rank=3 size=16
+generate
+746058133:0:4:EmberEngine:Reduce:generate:37: rank=4 size=16
+generate
+746143933:0:5:EmberEngine:Reduce:generate:37: rank=5 size=16
+generate
+746274133:0:6:EmberEngine:Reduce:generate:37: rank=6 size=16
+generate
+746813533:0:7:EmberEngine:Reduce:generate:37: rank=7 size=16
+generate
+746813933:0:8:EmberEngine:Reduce:generate:37: rank=8 size=16
+generate
+746813933:0:9:EmberEngine:Reduce:generate:37: rank=9 size=16
+generate
+746944333:0:10:EmberEngine:Reduce:generate:37: rank=10 size=16
+generate
+746985933:0:11:EmberEngine:Reduce:generate:37: rank=11 size=16
+generate
+747116333:0:12:EmberEngine:Reduce:generate:37: rank=12 size=16
+generate
+747116333:0:13:EmberEngine:Reduce:generate:37: rank=13 size=16
+generate
+747246733:0:14:EmberEngine:Reduce:generate:37: rank=14 size=16
+generate
+Bcast: ranks 16, loop 2, bytes 56, latency 1.893 us
+747699533:0:15:EmberEngine:Reduce:generate:37: rank=15 size=16
+Allgather: ranks 16, loop 3, bytes 12, latency 5.454 us
+Barrier: ranks 16, loop 99, latency 8.072 us
+1591161933:0:0:EmberEngine:PingPong:generate:65: rank=0 size=16
+rank2=1 messageSize=256 iterations=35
+1592091533:0:1:EmberEngine:PingPong:generate:65: rank=1 size=16
+1593993133:0:8:EmberEngine:PingPong:generate:65: rank=8 size=16
+1594879533:0:15:EmberEngine:PingPong:generate:65: rank=15 size=16
+PingPong: otherRank 1, total time 69.522 us, loop 35, bufLen 256, latency 0.993 us. bandwidth 0.257760 GB/s
+1660683533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=16
+rank2=8 messageSize=256 iterations=35
+PingPong: otherRank 8, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+1729955533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=16
+rank2=15 messageSize=256 iterations=35
+PingPong: otherRank 15, total time 81.368 us, loop 35, bufLen 256, latency 1.162 us. bandwidth 0.220234 GB/s
+Simulation is complete, simulated time: 1.81837 ms

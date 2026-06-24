@@ -1,0 +1,157 @@
+==================================================
+ Topology          : Torus 8x8
+ Routers           : 64
+ Total nodes       : 64
+ Total MPI ranks   : 64
+ PPN (ranks/node)  : 1   <-- should be 1
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/Torus/results/torus_8x8_ppn1_nodes64_stats.csv
+==================================================
+Allreduce: ranks 64, loop 92, 1 double(s), latency 13.015 us
+generate
+1200835933:0:0:EmberEngine:Reduce:generate:37: rank=0 size=64
+generate
+1202265533:0:1:EmberEngine:Reduce:generate:37: rank=1 size=64
+generate
+1202481533:0:2:EmberEngine:Reduce:generate:37: rank=2 size=64
+generate
+1203281533:0:3:EmberEngine:Reduce:generate:37: rank=3 size=64
+generate
+1203506933:0:4:EmberEngine:Reduce:generate:37: rank=4 size=64
+generate
+1203583933:0:5:EmberEngine:Reduce:generate:37: rank=5 size=64
+generate
+1203800533:0:6:EmberEngine:Reduce:generate:37: rank=6 size=64
+generate
+1204470333:0:7:EmberEngine:Reduce:generate:37: rank=7 size=64
+generate
+1204600533:0:8:EmberEngine:Reduce:generate:37: rank=8 size=64
+generate
+1204686333:0:11:EmberEngine:Reduce:generate:37: rank=11 size=64
+generate
+1204695733:0:9:EmberEngine:Reduce:generate:37: rank=9 size=64
+generate
+1204730133:0:12:EmberEngine:Reduce:generate:37: rank=12 size=64
+generate
+1204739533:0:10:EmberEngine:Reduce:generate:37: rank=10 size=64
+generate
+1204816533:0:13:EmberEngine:Reduce:generate:37: rank=13 size=64
+generate
+1204860333:0:14:EmberEngine:Reduce:generate:37: rank=14 size=64
+generate
+1205399933:0:15:EmberEngine:Reduce:generate:37: rank=15 size=64
+generate
+1205616533:0:17:EmberEngine:Reduce:generate:37: rank=17 size=64
+generate
+1205702933:0:16:EmberEngine:Reduce:generate:37: rank=16 size=64
+generate
+1205798133:0:19:EmberEngine:Reduce:generate:37: rank=19 size=64
+generate
+1205833133:0:18:EmberEngine:Reduce:generate:37: rank=18 size=64
+generate
+1205928333:0:21:EmberEngine:Reduce:generate:37: rank=21 size=64
+generate
+1205961533:0:23:EmberEngine:Reduce:generate:37: rank=23 size=64
+generate
+1205962733:0:29:EmberEngine:Reduce:generate:37: rank=29 size=64
+generate
+1206005333:0:25:EmberEngine:Reduce:generate:37: rank=25 size=64
+generate
+1206005333:0:27:EmberEngine:Reduce:generate:37: rank=27 size=64
+generate
+1206005933:0:30:EmberEngine:Reduce:generate:37: rank=30 size=64
+generate
+1206015533:0:20:EmberEngine:Reduce:generate:37: rank=20 size=64
+generate
+1206049133:0:26:EmberEngine:Reduce:generate:37: rank=26 size=64
+generate
+1206049133:0:28:EmberEngine:Reduce:generate:37: rank=28 size=64
+generate
+1206101333:0:24:EmberEngine:Reduce:generate:37: rank=24 size=64
+generate
+1206144333:0:22:EmberEngine:Reduce:generate:37: rank=22 size=64
+generate
+1206285533:0:31:EmberEngine:Reduce:generate:37: rank=31 size=64
+generate
+1206458733:0:32:EmberEngine:Reduce:generate:37: rank=32 size=64
+generate
+1206545133:0:33:EmberEngine:Reduce:generate:37: rank=33 size=64
+generate
+1206545133:0:35:EmberEngine:Reduce:generate:37: rank=35 size=64
+generate
+1206761933:0:34:EmberEngine:Reduce:generate:37: rank=34 size=64
+generate
+1206771533:0:36:EmberEngine:Reduce:generate:37: rank=36 size=64
+generate
+1206803533:0:47:EmberEngine:Reduce:generate:37: rank=47 size=64
+generate
+1206848333:0:37:EmberEngine:Reduce:generate:37: rank=37 size=64
+generate
+1206899533:0:39:EmberEngine:Reduce:generate:37: rank=39 size=64
+generate
+1206943533:0:43:EmberEngine:Reduce:generate:37: rank=43 size=64
+generate
+1206986733:0:44:EmberEngine:Reduce:generate:37: rank=44 size=64
+generate
+1207020333:0:51:EmberEngine:Reduce:generate:37: rank=51 size=64
+generate
+1207021133:0:61:EmberEngine:Reduce:generate:37: rank=61 size=64
+generate
+1207029933:0:40:EmberEngine:Reduce:generate:37: rank=40 size=64
+generate
+1207029933:0:49:EmberEngine:Reduce:generate:37: rank=49 size=64
+generate
+1207064333:0:38:EmberEngine:Reduce:generate:37: rank=38 size=64
+generate
+1207064333:0:59:EmberEngine:Reduce:generate:37: rank=59 size=64
+generate
+1207064333:0:62:EmberEngine:Reduce:generate:37: rank=62 size=64
+generate
+1207073933:0:45:EmberEngine:Reduce:generate:37: rank=45 size=64
+generate
+1207106733:0:48:EmberEngine:Reduce:generate:37: rank=48 size=64
+generate
+1207107533:0:60:EmberEngine:Reduce:generate:37: rank=60 size=64
+generate
+1207116333:0:46:EmberEngine:Reduce:generate:37: rank=46 size=64
+generate
+1207125933:0:41:EmberEngine:Reduce:generate:37: rank=41 size=64
+generate
+1207150733:0:53:EmberEngine:Reduce:generate:37: rank=53 size=64
+generate
+1207160333:0:42:EmberEngine:Reduce:generate:37: rank=42 size=64
+generate
+1207193133:0:55:EmberEngine:Reduce:generate:37: rank=55 size=64
+generate
+1207237133:0:52:EmberEngine:Reduce:generate:37: rank=52 size=64
+generate
+1207246733:0:57:EmberEngine:Reduce:generate:37: rank=57 size=64
+generate
+1207256333:0:50:EmberEngine:Reduce:generate:37: rank=50 size=64
+generate
+1207280333:0:58:EmberEngine:Reduce:generate:37: rank=58 size=64
+generate
+1207323533:0:56:EmberEngine:Reduce:generate:37: rank=56 size=64
+generate
+Bcast: ranks 64, loop 2, bytes 56, latency 1.893 us
+1207344333:0:63:EmberEngine:Reduce:generate:37: rank=63 size=64
+generate
+1207366733:0:54:EmberEngine:Reduce:generate:37: rank=54 size=64
+Allgather: ranks 64, loop 3, bytes 12, latency 9.377 us
+Barrier: ranks 64, loop 99, latency 13.013 us
+2555169933:0:0:EmberEngine:PingPong:generate:65: rank=0 size=64
+rank2=1 messageSize=256 iterations=35
+2556099533:0:1:EmberEngine:PingPong:generate:65: rank=1 size=64
+2558433933:0:8:EmberEngine:PingPong:generate:65: rank=8 size=64
+2560292333:0:32:EmberEngine:PingPong:generate:65: rank=32 size=64
+2561178733:0:63:EmberEngine:PingPong:generate:65: rank=63 size=64
+PingPong: otherRank 1, total time 69.522 us, loop 35, bufLen 256, latency 0.993 us. bandwidth 0.257760 GB/s
+2624691533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=64
+rank2=8 messageSize=256 iterations=35
+PingPong: otherRank 8, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+2693963533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=64
+rank2=32 messageSize=256 iterations=35
+PingPong: otherRank 32, total time 87.416 us, loop 35, bufLen 256, latency 1.249 us. bandwidth 0.204997 GB/s
+2781379533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=64
+rank2=63 messageSize=256 iterations=35
+PingPong: otherRank 63, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+Simulation is complete, simulated time: 2.86843 ms
