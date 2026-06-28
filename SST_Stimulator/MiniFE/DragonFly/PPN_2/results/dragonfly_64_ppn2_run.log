@@ -1,0 +1,284 @@
+==================================================
+ Topology          : Dragonfly (size 64)
+ hosts_per_router  : 2
+ routers_per_group : 8
+ num_groups        : 8
+ Total routers     : 64
+ Total nodes       : 128
+ Total MPI ranks   : 128
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/DragonFly/PPN_2/results/dragonfly_64_ppn2_nodes128_stats.csv
+==================================================
+Allreduce: ranks 128, loop 92, 1 double(s), latency 13.953 us
+generate
+1287165533:0:0:EmberEngine:Reduce:generate:37: rank=0 size=128
+generate
+1288508733:0:1:EmberEngine:Reduce:generate:37: rank=1 size=128
+generate
+1288724733:0:2:EmberEngine:Reduce:generate:37: rank=2 size=128
+generate
+1289438333:0:3:EmberEngine:Reduce:generate:37: rank=3 size=128
+generate
+1289568533:0:4:EmberEngine:Reduce:generate:37: rank=4 size=128
+generate
+1289654333:0:5:EmberEngine:Reduce:generate:37: rank=5 size=128
+generate
+1289784533:0:6:EmberEngine:Reduce:generate:37: rank=6 size=128
+generate
+1290367933:0:7:EmberEngine:Reduce:generate:37: rank=7 size=128
+generate
+1290498133:0:8:EmberEngine:Reduce:generate:37: rank=8 size=128
+generate
+1290498133:0:9:EmberEngine:Reduce:generate:37: rank=9 size=128
+generate
+1290583933:0:11:EmberEngine:Reduce:generate:37: rank=11 size=128
+generate
+1290628333:0:10:EmberEngine:Reduce:generate:37: rank=10 size=128
+generate
+1290714133:0:12:EmberEngine:Reduce:generate:37: rank=12 size=128
+generate
+1290714133:0:13:EmberEngine:Reduce:generate:37: rank=13 size=128
+generate
+1290844333:0:14:EmberEngine:Reduce:generate:37: rank=14 size=128
+generate
+1291297533:0:15:EmberEngine:Reduce:generate:37: rank=15 size=128
+generate
+1291514133:0:16:EmberEngine:Reduce:generate:37: rank=16 size=128
+generate
+1291514133:0:17:EmberEngine:Reduce:generate:37: rank=17 size=128
+generate
+1291599933:0:23:EmberEngine:Reduce:generate:37: rank=23 size=128
+generate
+1291600533:0:19:EmberEngine:Reduce:generate:37: rank=19 size=128
+generate
+1291730733:0:20:EmberEngine:Reduce:generate:37: rank=20 size=128
+generate
+1291730733:0:21:EmberEngine:Reduce:generate:37: rank=21 size=128
+generate
+1291740333:0:18:EmberEngine:Reduce:generate:37: rank=18 size=128
+generate
+1291816533:0:25:EmberEngine:Reduce:generate:37: rank=25 size=128
+generate
+1291816533:0:27:EmberEngine:Reduce:generate:37: rank=27 size=128
+generate
+1291826133:0:24:EmberEngine:Reduce:generate:37: rank=24 size=128
+generate
+1291860333:0:22:EmberEngine:Reduce:generate:37: rank=22 size=128
+generate
+1291946733:0:28:EmberEngine:Reduce:generate:37: rank=28 size=128
+generate
+1291946733:0:29:EmberEngine:Reduce:generate:37: rank=29 size=128
+generate
+1291956333:0:26:EmberEngine:Reduce:generate:37: rank=26 size=128
+generate
+1292076333:0:30:EmberEngine:Reduce:generate:37: rank=30 size=128
+generate
+1292399933:0:31:EmberEngine:Reduce:generate:37: rank=31 size=128
+generate
+1292443733:0:33:EmberEngine:Reduce:generate:37: rank=33 size=128
+generate
+1292530133:0:32:EmberEngine:Reduce:generate:37: rank=32 size=128
+generate
+1292616533:0:35:EmberEngine:Reduce:generate:37: rank=35 size=128
+generate
+1292660333:0:34:EmberEngine:Reduce:generate:37: rank=34 size=128
+generate
+1292707933:0:47:EmberEngine:Reduce:generate:37: rank=47 size=128
+generate
+1292711733:0:39:EmberEngine:Reduce:generate:37: rank=39 size=128
+generate
+1292746733:0:36:EmberEngine:Reduce:generate:37: rank=36 size=128
+generate
+1292756333:0:40:EmberEngine:Reduce:generate:37: rank=40 size=128
+generate
+1292832533:0:51:EmberEngine:Reduce:generate:37: rank=51 size=128
+generate
+1292833133:0:41:EmberEngine:Reduce:generate:37: rank=41 size=128
+generate
+1292833133:0:43:EmberEngine:Reduce:generate:37: rank=43 size=128
+generate
+1292842133:0:48:EmberEngine:Reduce:generate:37: rank=48 size=128
+generate
+1292842133:0:49:EmberEngine:Reduce:generate:37: rank=49 size=128
+generate
+1292842733:0:37:EmberEngine:Reduce:generate:37: rank=37 size=128
+generate
+1292918933:0:55:EmberEngine:Reduce:generate:37: rank=55 size=128
+generate
+1292962733:0:44:EmberEngine:Reduce:generate:37: rank=44 size=128
+generate
+1292962733:0:45:EmberEngine:Reduce:generate:37: rank=45 size=128
+generate
+1292962733:0:52:EmberEngine:Reduce:generate:37: rank=52 size=128
+generate
+1292972333:0:42:EmberEngine:Reduce:generate:37: rank=42 size=128
+generate
+1292972333:0:56:EmberEngine:Reduce:generate:37: rank=56 size=128
+generate
+1292981933:0:38:EmberEngine:Reduce:generate:37: rank=38 size=128
+generate
+1293049133:0:57:EmberEngine:Reduce:generate:37: rank=57 size=128
+generate
+1293049133:0:59:EmberEngine:Reduce:generate:37: rank=59 size=128
+generate
+1293058733:0:53:EmberEngine:Reduce:generate:37: rank=53 size=128
+generate
+1293068333:0:50:EmberEngine:Reduce:generate:37: rank=50 size=128
+generate
+1293092333:0:46:EmberEngine:Reduce:generate:37: rank=46 size=128
+generate
+1293178733:0:60:EmberEngine:Reduce:generate:37: rank=60 size=128
+generate
+1293178733:0:61:EmberEngine:Reduce:generate:37: rank=61 size=128
+generate
+1293188333:0:58:EmberEngine:Reduce:generate:37: rank=58 size=128
+generate
+1293197933:0:54:EmberEngine:Reduce:generate:37: rank=54 size=128
+generate
+1293285933:0:67:EmberEngine:Reduce:generate:37: rank=67 size=128
+generate
+1293308333:0:62:EmberEngine:Reduce:generate:37: rank=62 size=128
+generate
+1293371933:0:63:EmberEngine:Reduce:generate:37: rank=63 size=128
+generate
+1293372333:0:64:EmberEngine:Reduce:generate:37: rank=64 size=128
+generate
+1293372333:0:65:EmberEngine:Reduce:generate:37: rank=65 size=128
+generate
+1293416333:0:66:EmberEngine:Reduce:generate:37: rank=66 size=128
+generate
+1293416333:0:68:EmberEngine:Reduce:generate:37: rank=68 size=128
+generate
+1293416333:0:69:EmberEngine:Reduce:generate:37: rank=69 size=128
+generate
+1293458733:0:71:EmberEngine:Reduce:generate:37: rank=71 size=128
+generate
+1293502733:0:72:EmberEngine:Reduce:generate:37: rank=72 size=128
+generate
+1293545933:0:70:EmberEngine:Reduce:generate:37: rank=70 size=128
+generate
+1293549933:0:95:EmberEngine:Reduce:generate:37: rank=95 size=128
+generate
+1293553933:0:79:EmberEngine:Reduce:generate:37: rank=79 size=128
+generate
+1293589133:0:73:EmberEngine:Reduce:generate:37: rank=73 size=128
+generate
+1293589133:0:87:EmberEngine:Reduce:generate:37: rank=87 size=128
+generate
+1293598733:0:81:EmberEngine:Reduce:generate:37: rank=81 size=128
+generate
+1293632333:0:88:EmberEngine:Reduce:generate:37: rank=88 size=128
+generate
+1293641933:0:82:EmberEngine:Reduce:generate:37: rank=82 size=128
+generate
+1293674733:0:103:EmberEngine:Reduce:generate:37: rank=103 size=128
+generate
+1293675533:0:83:EmberEngine:Reduce:generate:37: rank=83 size=128
+generate
+1293680333:0:96:EmberEngine:Reduce:generate:37: rank=96 size=128
+generate
+1293684333:0:97:EmberEngine:Reduce:generate:37: rank=97 size=128
+generate
+1293684333:0:99:EmberEngine:Reduce:generate:37: rank=99 size=128
+generate
+1293685133:0:75:EmberEngine:Reduce:generate:37: rank=75 size=128
+generate
+1293685133:0:80:EmberEngine:Reduce:generate:37: rank=80 size=128
+generate
+1293718733:0:74:EmberEngine:Reduce:generate:37: rank=74 size=128
+generate
+1293718733:0:105:EmberEngine:Reduce:generate:37: rank=105 size=128
+generate
+1293728333:0:98:EmberEngine:Reduce:generate:37: rank=98 size=128
+generate
+1293761133:0:111:EmberEngine:Reduce:generate:37: rank=111 size=128
+generate
+1293805133:0:89:EmberEngine:Reduce:generate:37: rank=89 size=128
+generate
+1293805133:0:91:EmberEngine:Reduce:generate:37: rank=91 size=128
+generate
+1293805133:0:104:EmberEngine:Reduce:generate:37: rank=104 size=128
+generate
+1293814733:0:76:EmberEngine:Reduce:generate:37: rank=76 size=128
+generate
+1293814733:0:84:EmberEngine:Reduce:generate:37: rank=84 size=128
+generate
+1293814733:0:85:EmberEngine:Reduce:generate:37: rank=85 size=128
+generate
+1293814733:0:100:EmberEngine:Reduce:generate:37: rank=100 size=128
+generate
+1293814733:0:107:EmberEngine:Reduce:generate:37: rank=107 size=128
+generate
+1293814733:0:113:EmberEngine:Reduce:generate:37: rank=113 size=128
+generate
+1293824333:0:77:EmberEngine:Reduce:generate:37: rank=77 size=128
+generate
+1293848333:0:106:EmberEngine:Reduce:generate:37: rank=106 size=128
+generate
+1293857933:0:114:EmberEngine:Reduce:generate:37: rank=114 size=128
+generate
+1293891533:0:112:EmberEngine:Reduce:generate:37: rank=112 size=128
+generate
+1293901133:0:115:EmberEngine:Reduce:generate:37: rank=115 size=128
+generate
+1293910733:0:101:EmberEngine:Reduce:generate:37: rank=101 size=128
+generate
+1293910733:0:119:EmberEngine:Reduce:generate:37: rank=119 size=128
+generate
+1293934733:0:92:EmberEngine:Reduce:generate:37: rank=92 size=128
+generate
+1293934733:0:93:EmberEngine:Reduce:generate:37: rank=93 size=128
+generate
+1293934733:0:123:EmberEngine:Reduce:generate:37: rank=123 size=128
+generate
+1293944333:0:90:EmberEngine:Reduce:generate:37: rank=90 size=128
+generate
+1293953933:0:78:EmberEngine:Reduce:generate:37: rank=78 size=128
+generate
+1293953933:0:86:EmberEngine:Reduce:generate:37: rank=86 size=128
+generate
+1294021133:0:121:EmberEngine:Reduce:generate:37: rank=121 size=128
+generate
+1294030733:0:108:EmberEngine:Reduce:generate:37: rank=108 size=128
+generate
+1294030733:0:116:EmberEngine:Reduce:generate:37: rank=116 size=128
+generate
+1294030733:0:117:EmberEngine:Reduce:generate:37: rank=117 size=128
+generate
+1294040333:0:109:EmberEngine:Reduce:generate:37: rank=109 size=128
+generate
+1294040333:0:120:EmberEngine:Reduce:generate:37: rank=120 size=128
+generate
+1294049933:0:102:EmberEngine:Reduce:generate:37: rank=102 size=128
+generate
+1294064333:0:94:EmberEngine:Reduce:generate:37: rank=94 size=128
+generate
+1294150733:0:124:EmberEngine:Reduce:generate:37: rank=124 size=128
+generate
+1294150733:0:125:EmberEngine:Reduce:generate:37: rank=125 size=128
+generate
+1294160333:0:122:EmberEngine:Reduce:generate:37: rank=122 size=128
+generate
+1294169933:0:110:EmberEngine:Reduce:generate:37: rank=110 size=128
+generate
+1294169933:0:118:EmberEngine:Reduce:generate:37: rank=118 size=128
+generate
+Bcast: ranks 128, loop 2, bytes 56, latency 1.893 us
+1294257933:0:127:EmberEngine:Reduce:generate:37: rank=127 size=128
+generate
+1294280333:0:126:EmberEngine:Reduce:generate:37: rank=126 size=128
+Allgather: ranks 128, loop 3, bytes 12, latency 8.679 us
+Barrier: ranks 128, loop 99, latency 13.946 us
+2733085933:0:0:EmberEngine:PingPong:generate:65: rank=0 size=128
+rank2=1 messageSize=256 iterations=35
+2733929133:0:1:EmberEngine:PingPong:generate:65: rank=1 size=128
+2738792333:0:64:EmberEngine:PingPong:generate:65: rank=64 size=128
+2739678733:0:127:EmberEngine:PingPong:generate:65: rank=127 size=128
+PingPong: otherRank 1, total time 63.474 us, loop 35, bufLen 256, latency 0.907 us. bandwidth 0.282320 GB/s
+2796559533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=128
+rank2=64 messageSize=256 iterations=35
+PingPong: otherRank 64, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+2871879533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=128
+rank2=127 messageSize=256 iterations=35
+PingPong: otherRank 127, total time 81.368 us, loop 35, bufLen 256, latency 1.162 us. bandwidth 0.220234 GB/s
+Simulation is complete, simulated time: 2.96606 ms

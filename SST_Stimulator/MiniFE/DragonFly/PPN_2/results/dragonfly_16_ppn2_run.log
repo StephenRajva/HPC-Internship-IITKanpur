@@ -1,0 +1,92 @@
+==================================================
+ Topology          : Dragonfly (size 16)
+ hosts_per_router  : 2
+ routers_per_group : 4
+ num_groups        : 4
+ Total routers     : 16
+ Total nodes       : 32
+ Total MPI ranks   : 32
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/DragonFly/PPN_2/results/dragonfly_16_ppn2_nodes32_stats.csv
+==================================================
+Allreduce: ranks 32, loop 92, 1 double(s), latency 9.724 us
+generate
+898075133:0:0:EmberEngine:Reduce:generate:37: rank=0 size=32
+generate
+899418333:0:1:EmberEngine:Reduce:generate:37: rank=1 size=32
+generate
+899634333:0:2:EmberEngine:Reduce:generate:37: rank=2 size=32
+generate
+900347933:0:3:EmberEngine:Reduce:generate:37: rank=3 size=32
+generate
+900478133:0:4:EmberEngine:Reduce:generate:37: rank=4 size=32
+generate
+900563933:0:5:EmberEngine:Reduce:generate:37: rank=5 size=32
+generate
+900694133:0:6:EmberEngine:Reduce:generate:37: rank=6 size=32
+generate
+901277533:0:7:EmberEngine:Reduce:generate:37: rank=7 size=32
+generate
+901494133:0:8:EmberEngine:Reduce:generate:37: rank=8 size=32
+generate
+901494133:0:9:EmberEngine:Reduce:generate:37: rank=9 size=32
+generate
+901579933:0:11:EmberEngine:Reduce:generate:37: rank=11 size=32
+generate
+901710733:0:10:EmberEngine:Reduce:generate:37: rank=10 size=32
+generate
+901796533:0:12:EmberEngine:Reduce:generate:37: rank=12 size=32
+generate
+901796533:0:13:EmberEngine:Reduce:generate:37: rank=13 size=32
+generate
+901926733:0:14:EmberEngine:Reduce:generate:37: rank=14 size=32
+generate
+902163533:0:17:EmberEngine:Reduce:generate:37: rank=17 size=32
+generate
+902249533:0:15:EmberEngine:Reduce:generate:37: rank=15 size=32
+generate
+902249933:0:16:EmberEngine:Reduce:generate:37: rank=16 size=32
+generate
+902336333:0:19:EmberEngine:Reduce:generate:37: rank=19 size=32
+generate
+902380333:0:18:EmberEngine:Reduce:generate:37: rank=18 size=32
+generate
+902380333:0:20:EmberEngine:Reduce:generate:37: rank=20 size=32
+generate
+902421933:0:23:EmberEngine:Reduce:generate:37: rank=23 size=32
+generate
+902552333:0:24:EmberEngine:Reduce:generate:37: rank=24 size=32
+generate
+902552333:0:25:EmberEngine:Reduce:generate:37: rank=25 size=32
+generate
+902553133:0:21:EmberEngine:Reduce:generate:37: rank=21 size=32
+generate
+902638733:0:27:EmberEngine:Reduce:generate:37: rank=27 size=32
+generate
+902682733:0:22:EmberEngine:Reduce:generate:37: rank=22 size=32
+generate
+902682733:0:28:EmberEngine:Reduce:generate:37: rank=28 size=32
+generate
+902769133:0:29:EmberEngine:Reduce:generate:37: rank=29 size=32
+generate
+902778733:0:26:EmberEngine:Reduce:generate:37: rank=26 size=32
+generate
+902898733:0:30:EmberEngine:Reduce:generate:37: rank=30 size=32
+generate
+Bcast: ranks 32, loop 2, bytes 56, latency 1.893 us
+903135533:0:31:EmberEngine:Reduce:generate:37: rank=31 size=32
+Allgather: ranks 32, loop 3, bytes 12, latency 6.382 us
+Barrier: ranks 32, loop 99, latency 9.753 us
+1916967533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=1 messageSize=256 iterations=35
+1917810733:0:1:EmberEngine:PingPong:generate:65: rank=1 size=32
+1920641933:0:16:EmberEngine:PingPong:generate:65: rank=16 size=32
+1921528333:0:31:EmberEngine:PingPong:generate:65: rank=31 size=32
+PingPong: otherRank 1, total time 63.474 us, loop 35, bufLen 256, latency 0.907 us. bandwidth 0.282320 GB/s
+1980441133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=16 messageSize=256 iterations=35
+PingPong: otherRank 16, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+2049713133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=31 messageSize=256 iterations=35
+PingPong: otherRank 31, total time 81.368 us, loop 35, bufLen 256, latency 1.162 us. bandwidth 0.220234 GB/s
+Simulation is complete, simulated time: 2.13981 ms

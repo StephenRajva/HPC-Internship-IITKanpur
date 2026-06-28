@@ -1,0 +1,13 @@
+==================================================
+ Pattern           : halfshift
+ Topology          : Mesh 4x4  (16 routers, 32 nodes, PPN=2)
+ Exchange          : rank 0  <->  rank 16
+ Representative hops: 2  (Manhattan dist between routers)
+ PPN (ranks/router): 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/Communication _Pattern/Communication_Pattern_PPN1/PPN_2/halfshift/results/halfshift_mesh_4x4_ppn2_nodes32_stats.csv
+==================================================
+180000:0:16:EmberEngine:PingPong:generate:65: rank=16 size=32
+180000:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=16 messageSize=256 iterations=35
+PingPong: otherRank 16, total time 75.319 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237921 GB/s
+Simulation is complete, simulated time: 83.4715 us

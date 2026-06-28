@@ -1,0 +1,146 @@
+==================================================
+ Topology          : Dragonfly (size 16) - MiniMD
+ hosts_per_router  : 2
+ routers_per_group : 4
+ num_groups        : 4
+ Total routers     : 16
+ Total nodes       : 32
+ Total MPI ranks   : 32
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniMD/DragonFly/PPN_2/results/minimd_dragonfly_16_ppn2_nodes32_stats.csv
+==================================================
+180000:0:31:EmberEngine:AllPingPong:generate:59: rank=31 size=32
+180000:0:30:EmberEngine:AllPingPong:generate:59: rank=30 size=32
+180000:0:29:EmberEngine:AllPingPong:generate:59: rank=29 size=32
+180000:0:28:EmberEngine:AllPingPong:generate:59: rank=28 size=32
+180000:0:27:EmberEngine:AllPingPong:generate:59: rank=27 size=32
+180000:0:26:EmberEngine:AllPingPong:generate:59: rank=26 size=32
+180000:0:25:EmberEngine:AllPingPong:generate:59: rank=25 size=32
+180000:0:24:EmberEngine:AllPingPong:generate:59: rank=24 size=32
+180000:0:23:EmberEngine:AllPingPong:generate:59: rank=23 size=32
+180000:0:22:EmberEngine:AllPingPong:generate:59: rank=22 size=32
+180000:0:21:EmberEngine:AllPingPong:generate:59: rank=21 size=32
+180000:0:20:EmberEngine:AllPingPong:generate:59: rank=20 size=32
+180000:0:19:EmberEngine:AllPingPong:generate:59: rank=19 size=32
+180000:0:18:EmberEngine:AllPingPong:generate:59: rank=18 size=32
+180000:0:17:EmberEngine:AllPingPong:generate:59: rank=17 size=32
+180000:0:16:EmberEngine:AllPingPong:generate:59: rank=16 size=32
+180000:0:15:EmberEngine:AllPingPong:generate:59: rank=15 size=32
+180000:0:14:EmberEngine:AllPingPong:generate:59: rank=14 size=32
+180000:0:13:EmberEngine:AllPingPong:generate:59: rank=13 size=32
+180000:0:12:EmberEngine:AllPingPong:generate:59: rank=12 size=32
+180000:0:11:EmberEngine:AllPingPong:generate:59: rank=11 size=32
+180000:0:10:EmberEngine:AllPingPong:generate:59: rank=10 size=32
+180000:0:9:EmberEngine:AllPingPong:generate:59: rank=9 size=32
+180000:0:8:EmberEngine:AllPingPong:generate:59: rank=8 size=32
+180000:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=32
+180000:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=32
+180000:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=32
+180000:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=32
+180000:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=32
+180000:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=32
+180000:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=32
+180000:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=32
+161501205109:0:16:EmberEngine:AllPingPong:generate:59: rank=16 size=32
+AllPingPong: total time 161504.015 us, loop 325, bufLen 20510, latency 248.468 us. bandwidth 0.082546 GB/s
+161504195625:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=32
+161611185405:0:21:EmberEngine:AllPingPong:generate:59: rank=21 size=32
+161614109221:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=32
+161615102029:0:19:EmberEngine:AllPingPong:generate:59: rank=19 size=32
+161618025845:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=32
+161758901893:0:23:EmberEngine:AllPingPong:generate:59: rank=23 size=32
+161761759009:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=32
+161779138006:0:18:EmberEngine:AllPingPong:generate:59: rank=18 size=32
+161781994839:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=32
+161791723629:0:17:EmberEngine:AllPingPong:generate:59: rank=17 size=32
+161794580745:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=32
+161972440609:0:26:EmberEngine:AllPingPong:generate:59: rank=26 size=32
+161972440609:0:31:EmberEngine:AllPingPong:generate:59: rank=31 size=32
+161973023567:0:24:EmberEngine:AllPingPong:generate:59: rank=24 size=32
+161973023567:0:29:EmberEngine:AllPingPong:generate:59: rank=29 size=32
+161975364243:0:10:EmberEngine:AllPingPong:generate:59: rank=10 size=32
+161975364243:0:15:EmberEngine:AllPingPong:generate:59: rank=15 size=32
+161975946945:0:8:EmberEngine:AllPingPong:generate:59: rank=8 size=32
+161975946945:0:13:EmberEngine:AllPingPong:generate:59: rank=13 size=32
+162096517283:0:22:EmberEngine:AllPingPong:generate:59: rank=22 size=32
+162099374345:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=32
+162099605493:0:20:EmberEngine:AllPingPong:generate:59: rank=20 size=32
+162102462609:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=32
+162468761312:0:25:EmberEngine:AllPingPong:generate:59: rank=25 size=32
+162468761312:0:28:EmberEngine:AllPingPong:generate:59: rank=28 size=32
+162469447655:0:27:EmberEngine:AllPingPong:generate:59: rank=27 size=32
+162469447655:0:30:EmberEngine:AllPingPong:generate:59: rank=30 size=32
+162471618374:0:9:EmberEngine:AllPingPong:generate:59: rank=9 size=32
+162471618374:0:12:EmberEngine:AllPingPong:generate:59: rank=12 size=32
+162472304872:0:11:EmberEngine:AllPingPong:generate:59: rank=11 size=32
+162472304872:0:14:EmberEngine:AllPingPong:generate:59: rank=14 size=32
+317198679593:0:16:EmberEngine:AllPingPong:generate:59: rank=16 size=32
+AllPingPong: total time 155695.826 us, loop 325, bufLen 9000, latency 239.532 us. bandwidth 0.037573 GB/s
+317200021692:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=32
+317351881489:0:21:EmberEngine:AllPingPong:generate:59: rank=21 size=32
+317353290288:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=32
+317355798113:0:19:EmberEngine:AllPingPong:generate:59: rank=19 size=32
+317357206912:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=32
+317542819577:0:23:EmberEngine:AllPingPong:generate:59: rank=23 size=32
+317544295076:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=32
+317563055023:0:18:EmberEngine:AllPingPong:generate:59: rank=18 size=32
+317564530522:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=32
+317575641313:0:17:EmberEngine:AllPingPong:generate:59: rank=17 size=32
+317577116812:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=32
+317713989119:0:26:EmberEngine:AllPingPong:generate:59: rank=26 size=32
+317713989119:0:31:EmberEngine:AllPingPong:generate:59: rank=31 size=32
+317715359804:0:24:EmberEngine:AllPingPong:generate:59: rank=24 size=32
+317715359804:0:29:EmberEngine:AllPingPong:generate:59: rank=29 size=32
+317715397918:0:10:EmberEngine:AllPingPong:generate:59: rank=10 size=32
+317715397918:0:15:EmberEngine:AllPingPong:generate:59: rank=15 size=32
+317716768603:0:8:EmberEngine:AllPingPong:generate:59: rank=8 size=32
+317716768603:0:13:EmberEngine:AllPingPong:generate:59: rank=13 size=32
+317880434967:0:22:EmberEngine:AllPingPong:generate:59: rank=22 size=32
+317881910466:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=32
+317883523177:0:20:EmberEngine:AllPingPong:generate:59: rank=20 size=32
+317884998676:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=32
+318252678996:0:25:EmberEngine:AllPingPong:generate:59: rank=25 size=32
+318252678996:0:28:EmberEngine:AllPingPong:generate:59: rank=28 size=32
+318253433373:0:27:EmberEngine:AllPingPong:generate:59: rank=27 size=32
+318253433373:0:30:EmberEngine:AllPingPong:generate:59: rank=30 size=32
+318254154495:0:9:EmberEngine:AllPingPong:generate:59: rank=9 size=32
+318254154495:0:12:EmberEngine:AllPingPong:generate:59: rank=12 size=32
+318254908872:0:11:EmberEngine:AllPingPong:generate:59: rank=11 size=32
+318254908872:0:14:EmberEngine:AllPingPong:generate:59: rank=14 size=32
+478677864184:0:16:EmberEngine:AllPingPong:generate:59: rank=16 size=32
+AllPingPong: total time 161480.833 us, loop 325, bufLen 20510, latency 248.432 us. bandwidth 0.082558 GB/s
+478680854700:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=32
+478956779572:0:21:EmberEngine:AllPingPong:generate:59: rank=21 size=32
+478959703388:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=32
+478960696196:0:19:EmberEngine:AllPingPong:generate:59: rank=19 size=32
+478963620012:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=32
+479277916060:0:23:EmberEngine:AllPingPong:generate:59: rank=23 size=32
+479280773176:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=32
+479305090974:0:18:EmberEngine:AllPingPong:generate:59: rank=18 size=32
+479307948090:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=32
+479313035611:0:17:EmberEngine:AllPingPong:generate:59: rank=17 size=32
+479315892727:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=32
+479618132750:0:22:EmberEngine:AllPingPong:generate:59: rank=22 size=32
+479620989812:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=32
+479621220960:0:20:EmberEngine:AllPingPong:generate:59: rank=20 size=32
+479624078076:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=32
+479669633154:0:26:EmberEngine:AllPingPong:generate:59: rank=26 size=32
+479669633154:0:31:EmberEngine:AllPingPong:generate:59: rank=31 size=32
+479670216112:0:24:EmberEngine:AllPingPong:generate:59: rank=24 size=32
+479670216112:0:29:EmberEngine:AllPingPong:generate:59: rank=29 size=32
+479672556788:0:10:EmberEngine:AllPingPong:generate:59: rank=10 size=32
+479672556788:0:15:EmberEngine:AllPingPong:generate:59: rank=15 size=32
+479673139490:0:8:EmberEngine:AllPingPong:generate:59: rank=8 size=32
+479673139490:0:13:EmberEngine:AllPingPong:generate:59: rank=13 size=32
+480653761639:0:25:EmberEngine:AllPingPong:generate:59: rank=25 size=32
+480653761639:0:28:EmberEngine:AllPingPong:generate:59: rank=28 size=32
+480654789486:0:27:EmberEngine:AllPingPong:generate:59: rank=27 size=32
+480654789486:0:30:EmberEngine:AllPingPong:generate:59: rank=30 size=32
+480656618701:0:9:EmberEngine:AllPingPong:generate:59: rank=9 size=32
+480656618701:0:12:EmberEngine:AllPingPong:generate:59: rank=12 size=32
+480657646447:0:11:EmberEngine:AllPingPong:generate:59: rank=11 size=32
+480657646447:0:14:EmberEngine:AllPingPong:generate:59: rank=14 size=32
+AllPingPong: total time 155702.463 us, loop 325, bufLen 9000, latency 239.542 us. bandwidth 0.037572 GB/s
+Allreduce: ranks 32, loop 40, 1 double(s), latency 2511.511 us
+Barrier: ranks 32, loop 15, latency 1401.224 us
+Simulation is complete, simulated time: 755.876 ms

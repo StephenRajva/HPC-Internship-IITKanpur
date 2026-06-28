@@ -1,0 +1,1054 @@
+==================================================
+ Topology          : Torus 16x16
+ Routers           : 256
+ Nodes per router  : 2  (local_ports)
+ Total nodes       : 512
+ Total MPI ranks   : 512
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/Torus/PPN_2/results/torus_16x16_ppn2_nodes512_stats.csv
+==================================================
+Allreduce: ranks 512, loop 92, 1 double(s), latency 23.034 us
+generate
+2122579133:0:0:EmberEngine:Reduce:generate:37: rank=0 size=512
+generate
+2123922333:0:1:EmberEngine:Reduce:generate:37: rank=1 size=512
+generate
+2124138333:0:2:EmberEngine:Reduce:generate:37: rank=2 size=512
+generate
+2124851933:0:3:EmberEngine:Reduce:generate:37: rank=3 size=512
+generate
+2125067933:0:5:EmberEngine:Reduce:generate:37: rank=5 size=512
+generate
+2125077333:0:4:EmberEngine:Reduce:generate:37: rank=4 size=512
+generate
+2125284533:0:6:EmberEngine:Reduce:generate:37: rank=6 size=512
+generate
+2125867933:0:7:EmberEngine:Reduce:generate:37: rank=7 size=512
+generate
+2126093333:0:8:EmberEngine:Reduce:generate:37: rank=8 size=512
+generate
+2126102933:0:9:EmberEngine:Reduce:generate:37: rank=9 size=512
+generate
+2126170333:0:11:EmberEngine:Reduce:generate:37: rank=11 size=512
+generate
+2126319733:0:10:EmberEngine:Reduce:generate:37: rank=10 size=512
+generate
+2126386933:0:13:EmberEngine:Reduce:generate:37: rank=13 size=512
+generate
+2126396533:0:12:EmberEngine:Reduce:generate:37: rank=12 size=512
+generate
+2126603533:0:14:EmberEngine:Reduce:generate:37: rank=14 size=512
+generate
+2127056733:0:15:EmberEngine:Reduce:generate:37: rank=15 size=512
+generate
+2127282133:0:16:EmberEngine:Reduce:generate:37: rank=16 size=512
+generate
+2127291733:0:17:EmberEngine:Reduce:generate:37: rank=17 size=512
+generate
+2127386933:0:19:EmberEngine:Reduce:generate:37: rank=19 size=512
+generate
+2127517333:0:18:EmberEngine:Reduce:generate:37: rank=18 size=512
+generate
+2127531933:0:23:EmberEngine:Reduce:generate:37: rank=23 size=512
+generate
+2127622733:0:20:EmberEngine:Reduce:generate:37: rank=20 size=512
+generate
+2127622933:0:21:EmberEngine:Reduce:generate:37: rank=21 size=512
+generate
+2127758133:0:24:EmberEngine:Reduce:generate:37: rank=24 size=512
+generate
+2127767733:0:25:EmberEngine:Reduce:generate:37: rank=25 size=512
+generate
+2127820333:0:22:EmberEngine:Reduce:generate:37: rank=22 size=512
+generate
+2127834933:0:27:EmberEngine:Reduce:generate:37: rank=27 size=512
+generate
+2127984333:0:26:EmberEngine:Reduce:generate:37: rank=26 size=512
+generate
+2128051533:0:29:EmberEngine:Reduce:generate:37: rank=29 size=512
+generate
+2128061133:0:28:EmberEngine:Reduce:generate:37: rank=28 size=512
+generate
+2128267533:0:30:EmberEngine:Reduce:generate:37: rank=30 size=512
+generate
+2128591133:0:31:EmberEngine:Reduce:generate:37: rank=31 size=512
+generate
+2128721333:0:32:EmberEngine:Reduce:generate:37: rank=32 size=512
+generate
+2128811733:0:47:EmberEngine:Reduce:generate:37: rank=47 size=512
+generate
+2128826133:0:35:EmberEngine:Reduce:generate:37: rank=35 size=512
+generate
+2128834933:0:39:EmberEngine:Reduce:generate:37: rank=39 size=512
+generate
+2128854933:0:48:EmberEngine:Reduce:generate:37: rank=48 size=512
+generate
+2128869933:0:36:EmberEngine:Reduce:generate:37: rank=36 size=512
+generate
+2128888333:0:40:EmberEngine:Reduce:generate:37: rank=40 size=512
+generate
+2128902933:0:33:EmberEngine:Reduce:generate:37: rank=33 size=512
+generate
+2128937333:0:55:EmberEngine:Reduce:generate:37: rank=55 size=512
+generate
+2128946733:0:34:EmberEngine:Reduce:generate:37: rank=34 size=512
+generate
+2128956533:0:51:EmberEngine:Reduce:generate:37: rank=51 size=512
+generate
+2128981133:0:56:EmberEngine:Reduce:generate:37: rank=56 size=512
+generate
+2128998733:0:43:EmberEngine:Reduce:generate:37: rank=43 size=512
+generate
+2129000333:0:52:EmberEngine:Reduce:generate:37: rank=52 size=512
+generate
+2129033333:0:49:EmberEngine:Reduce:generate:37: rank=49 size=512
+generate
+2129042733:0:44:EmberEngine:Reduce:generate:37: rank=44 size=512
+generate
+2129060533:0:37:EmberEngine:Reduce:generate:37: rank=37 size=512
+generate
+2129067533:0:59:EmberEngine:Reduce:generate:37: rank=59 size=512
+generate
+2129075533:0:41:EmberEngine:Reduce:generate:37: rank=41 size=512
+generate
+2129077133:0:50:EmberEngine:Reduce:generate:37: rank=50 size=512
+generate
+2129095533:0:38:EmberEngine:Reduce:generate:37: rank=38 size=512
+generate
+2129110733:0:60:EmberEngine:Reduce:generate:37: rank=60 size=512
+generate
+2129119533:0:42:EmberEngine:Reduce:generate:37: rank=42 size=512
+generate
+2129163533:0:57:EmberEngine:Reduce:generate:37: rank=57 size=512
+generate
+2129173133:0:53:EmberEngine:Reduce:generate:37: rank=53 size=512
+generate
+2129181933:0:45:EmberEngine:Reduce:generate:37: rank=45 size=512
+generate
+2129206733:0:58:EmberEngine:Reduce:generate:37: rank=58 size=512
+generate
+2129216333:0:54:EmberEngine:Reduce:generate:37: rank=54 size=512
+generate
+2129225133:0:46:EmberEngine:Reduce:generate:37: rank=46 size=512
+generate
+2129283533:0:61:EmberEngine:Reduce:generate:37: rank=61 size=512
+generate
+2129326733:0:62:EmberEngine:Reduce:generate:37: rank=62 size=512
+generate
+2129520733:0:63:EmberEngine:Reduce:generate:37: rank=63 size=512
+generate
+2129650933:0:65:EmberEngine:Reduce:generate:37: rank=65 size=512
+generate
+2129823733:0:64:EmberEngine:Reduce:generate:37: rank=64 size=512
+generate
+2129867533:0:66:EmberEngine:Reduce:generate:37: rank=66 size=512
+generate
+2129918933:0:67:EmberEngine:Reduce:generate:37: rank=67 size=512
+generate
+2129928533:0:71:EmberEngine:Reduce:generate:37: rank=71 size=512
+generate
+2129962733:0:69:EmberEngine:Reduce:generate:37: rank=69 size=512
+generate
+2129972333:0:73:EmberEngine:Reduce:generate:37: rank=73 size=512
+generate
+2130110733:0:79:EmberEngine:Reduce:generate:37: rank=79 size=512
+generate
+2130135533:0:68:EmberEngine:Reduce:generate:37: rank=68 size=512
+generate
+2130145133:0:72:EmberEngine:Reduce:generate:37: rank=72 size=512
+generate
+2130163533:0:81:EmberEngine:Reduce:generate:37: rank=81 size=512
+generate
+2130178733:0:70:EmberEngine:Reduce:generate:37: rank=70 size=512
+generate
+2130188333:0:74:EmberEngine:Reduce:generate:37: rank=74 size=512
+generate
+2130249333:0:75:EmberEngine:Reduce:generate:37: rank=75 size=512
+generate
+2130256333:0:119:EmberEngine:Reduce:generate:37: rank=119 size=512
+generate
+2130284333:0:77:EmberEngine:Reduce:generate:37: rank=77 size=512
+generate
+2130299533:0:121:EmberEngine:Reduce:generate:37: rank=121 size=512
+generate
+2130303533:0:111:EmberEngine:Reduce:generate:37: rank=111 size=512
+generate
+2130309133:0:120:EmberEngine:Reduce:generate:37: rank=120 size=512
+generate
+2130327533:0:80:EmberEngine:Reduce:generate:37: rank=80 size=512
+generate
+2130342733:0:113:EmberEngine:Reduce:generate:37: rank=113 size=512
+generate
+2130342733:0:122:EmberEngine:Reduce:generate:37: rank=122 size=512
+generate
+2130352333:0:112:EmberEngine:Reduce:generate:37: rank=112 size=512
+generate
+2130380333:0:82:EmberEngine:Reduce:generate:37: rank=82 size=512
+generate
+2130385933:0:114:EmberEngine:Reduce:generate:37: rank=114 size=512
+generate
+2130385933:0:123:EmberEngine:Reduce:generate:37: rank=123 size=512
+generate
+2130429133:0:125:EmberEngine:Reduce:generate:37: rank=125 size=512
+generate
+2130432533:0:95:EmberEngine:Reduce:generate:37: rank=95 size=512
+generate
+2130437133:0:83:EmberEngine:Reduce:generate:37: rank=83 size=512
+generate
+2130438733:0:115:EmberEngine:Reduce:generate:37: rank=115 size=512
+generate
+2130438733:0:124:EmberEngine:Reduce:generate:37: rank=124 size=512
+generate
+2130448333:0:87:EmberEngine:Reduce:generate:37: rank=87 size=512
+generate
+2130465933:0:76:EmberEngine:Reduce:generate:37: rank=76 size=512
+generate
+2130472333:0:126:EmberEngine:Reduce:generate:37: rank=126 size=512
+generate
+2130481133:0:85:EmberEngine:Reduce:generate:37: rank=85 size=512
+generate
+2130481933:0:116:EmberEngine:Reduce:generate:37: rank=116 size=512
+generate
+2130490733:0:89:EmberEngine:Reduce:generate:37: rank=89 size=512
+generate
+2130490933:0:103:EmberEngine:Reduce:generate:37: rank=103 size=512
+generate
+2130491533:0:117:EmberEngine:Reduce:generate:37: rank=117 size=512
+generate
+2130500333:0:78:EmberEngine:Reduce:generate:37: rank=78 size=512
+generate
+2130525133:0:118:EmberEngine:Reduce:generate:37: rank=118 size=512
+generate
+2130536733:0:127:EmberEngine:Reduce:generate:37: rank=127 size=512
+generate
+2130544333:0:105:EmberEngine:Reduce:generate:37: rank=105 size=512
+generate
+2130553933:0:104:EmberEngine:Reduce:generate:37: rank=104 size=512
+generate
+2130571533:0:96:EmberEngine:Reduce:generate:37: rank=96 size=512
+generate
+2130571733:0:97:EmberEngine:Reduce:generate:37: rank=97 size=512
+generate
+2130577933:0:106:EmberEngine:Reduce:generate:37: rank=106 size=512
+generate
+2130605933:0:98:EmberEngine:Reduce:generate:37: rank=98 size=512
+generate
+2130621133:0:107:EmberEngine:Reduce:generate:37: rank=107 size=512
+generate
+2130653133:0:84:EmberEngine:Reduce:generate:37: rank=84 size=512
+generate
+2130654133:0:99:EmberEngine:Reduce:generate:37: rank=99 size=512
+generate
+2130663533:0:88:EmberEngine:Reduce:generate:37: rank=88 size=512
+generate
+2130664333:0:108:EmberEngine:Reduce:generate:37: rank=108 size=512
+generate
+2130673933:0:109:EmberEngine:Reduce:generate:37: rank=109 size=512
+generate
+2130697133:0:86:EmberEngine:Reduce:generate:37: rank=86 size=512
+generate
+2130697933:0:100:EmberEngine:Reduce:generate:37: rank=100 size=512
+generate
+2130706733:0:90:EmberEngine:Reduce:generate:37: rank=90 size=512
+generate
+2130707533:0:101:EmberEngine:Reduce:generate:37: rank=101 size=512
+generate
+2130707533:0:110:EmberEngine:Reduce:generate:37: rank=110 size=512
+generate
+2130724533:0:91:EmberEngine:Reduce:generate:37: rank=91 size=512
+generate
+2130741133:0:102:EmberEngine:Reduce:generate:37: rank=102 size=512
+generate
+2130753333:0:131:EmberEngine:Reduce:generate:37: rank=131 size=512
+generate
+2130759533:0:93:EmberEngine:Reduce:generate:37: rank=93 size=512
+generate
+2130839733:0:129:EmberEngine:Reduce:generate:37: rank=129 size=512
+generate
+2130849333:0:128:EmberEngine:Reduce:generate:37: rank=128 size=512
+generate
+2130932333:0:92:EmberEngine:Reduce:generate:37: rank=92 size=512
+generate
+2130969933:0:133:EmberEngine:Reduce:generate:37: rank=133 size=512
+generate
+2130975533:0:94:EmberEngine:Reduce:generate:37: rank=94 size=512
+generate
+2130979533:0:132:EmberEngine:Reduce:generate:37: rank=132 size=512
+generate
+2131056333:0:130:EmberEngine:Reduce:generate:37: rank=130 size=512
+generate
+2131107733:0:135:EmberEngine:Reduce:generate:37: rank=135 size=512
+generate
+2131185933:0:134:EmberEngine:Reduce:generate:37: rank=134 size=512
+generate
+2131237933:0:139:EmberEngine:Reduce:generate:37: rank=139 size=512
+generate
+2131290133:0:143:EmberEngine:Reduce:generate:37: rank=143 size=512
+generate
+2131324333:0:137:EmberEngine:Reduce:generate:37: rank=137 size=512
+generate
+2131333933:0:136:EmberEngine:Reduce:generate:37: rank=136 size=512
+generate
+2131420333:0:147:EmberEngine:Reduce:generate:37: rank=147 size=512
+generate
+2131453933:0:141:EmberEngine:Reduce:generate:37: rank=141 size=512
+generate
+2131473133:0:140:EmberEngine:Reduce:generate:37: rank=140 size=512
+generate
+2131506733:0:145:EmberEngine:Reduce:generate:37: rank=145 size=512
+generate
+2131516333:0:144:EmberEngine:Reduce:generate:37: rank=144 size=512
+generate
+2131536333:0:191:EmberEngine:Reduce:generate:37: rank=191 size=512
+generate
+2131540333:0:138:EmberEngine:Reduce:generate:37: rank=138 size=512
+generate
+2131595133:0:255:EmberEngine:Reduce:generate:37: rank=255 size=512
+generate
+2131636333:0:149:EmberEngine:Reduce:generate:37: rank=149 size=512
+generate
+2131655533:0:148:EmberEngine:Reduce:generate:37: rank=148 size=512
+generate
+2131669933:0:142:EmberEngine:Reduce:generate:37: rank=142 size=512
+generate
+2131689933:0:193:EmberEngine:Reduce:generate:37: rank=193 size=512
+generate
+2131704333:0:251:EmberEngine:Reduce:generate:37: rank=251 size=512
+generate
+2131722733:0:146:EmberEngine:Reduce:generate:37: rank=146 size=512
+generate
+2131747533:0:247:EmberEngine:Reduce:generate:37: rank=247 size=512
+generate
+2131750133:0:253:EmberEngine:Reduce:generate:37: rank=253 size=512
+generate
+2131753133:0:243:EmberEngine:Reduce:generate:37: rank=243 size=512
+generate
+2131760533:0:195:EmberEngine:Reduce:generate:37: rank=195 size=512
+generate
+2131766733:0:252:EmberEngine:Reduce:generate:37: rank=252 size=512
+generate
+2131768333:0:256:EmberEngine:Reduce:generate:37: rank=256 size=512
+generate
+2131777933:0:257:EmberEngine:Reduce:generate:37: rank=257 size=512
+generate
+2131785133:0:151:EmberEngine:Reduce:generate:37: rank=151 size=512
+generate
+2131790733:0:239:EmberEngine:Reduce:generate:37: rank=239 size=512
+generate
+2131790733:0:245:EmberEngine:Reduce:generate:37: rank=245 size=512
+generate
+2131790733:0:248:EmberEngine:Reduce:generate:37: rank=248 size=512
+generate
+2131793333:0:254:EmberEngine:Reduce:generate:37: rank=254 size=512
+generate
+2131800333:0:197:EmberEngine:Reduce:generate:37: rank=197 size=512
+generate
+2131805333:0:249:EmberEngine:Reduce:generate:37: rank=249 size=512
+generate
+2131815533:0:244:EmberEngine:Reduce:generate:37: rank=244 size=512
+generate
+2131817933:0:159:EmberEngine:Reduce:generate:37: rank=159 size=512
+generate
+2131836533:0:246:EmberEngine:Reduce:generate:37: rank=246 size=512
+generate
+2131837933:0:192:EmberEngine:Reduce:generate:37: rank=192 size=512
+generate
+2131847733:0:250:EmberEngine:Reduce:generate:37: rank=250 size=512
+generate
+2131851533:0:179:EmberEngine:Reduce:generate:37: rank=179 size=512
+generate
+2131852333:0:150:EmberEngine:Reduce:generate:37: rank=150 size=512
+generate
+2131854733:0:259:EmberEngine:Reduce:generate:37: rank=259 size=512
+generate
+2131854733:0:263:EmberEngine:Reduce:generate:37: rank=263 size=512
+generate
+2131862733:0:240:EmberEngine:Reduce:generate:37: rank=240 size=512
+generate
+2131870733:0:163:EmberEngine:Reduce:generate:37: rank=163 size=512
+generate
+2131881133:0:241:EmberEngine:Reduce:generate:37: rank=241 size=512
+generate
+2131889933:0:194:EmberEngine:Reduce:generate:37: rank=194 size=512
+generate
+2131896333:0:175:EmberEngine:Reduce:generate:37: rank=175 size=512
+generate
+2131896333:0:180:EmberEngine:Reduce:generate:37: rank=180 size=512
+generate
+2131905133:0:155:EmberEngine:Reduce:generate:37: rank=155 size=512
+generate
+2131913933:0:164:EmberEngine:Reduce:generate:37: rank=164 size=512
+generate
+2131914733:0:242:EmberEngine:Reduce:generate:37: rank=242 size=512
+generate
+2131929333:0:199:EmberEngine:Reduce:generate:37: rank=199 size=512
+generate
+2131938933:0:207:EmberEngine:Reduce:generate:37: rank=207 size=512
+generate
+2131948333:0:176:EmberEngine:Reduce:generate:37: rank=176 size=512
+generate
+2131948333:0:187:EmberEngine:Reduce:generate:37: rank=187 size=512
+generate
+2131956533:0:160:EmberEngine:Reduce:generate:37: rank=160 size=512
+generate
+2131973133:0:201:EmberEngine:Reduce:generate:37: rank=201 size=512
+generate
+2131985933:0:196:EmberEngine:Reduce:generate:37: rank=196 size=512
+generate
+2131991533:0:188:EmberEngine:Reduce:generate:37: rank=188 size=512
+generate
+2131996333:0:258:EmberEngine:Reduce:generate:37: rank=258 size=512
+generate
+2132000333:0:153:EmberEngine:Reduce:generate:37: rank=153 size=512
+generate
+2132001133:0:183:EmberEngine:Reduce:generate:37: rank=183 size=512
+generate
+2132001933:0:209:EmberEngine:Reduce:generate:37: rank=209 size=512
+generate
+2132009933:0:152:EmberEngine:Reduce:generate:37: rank=152 size=512
+generate
+2132010733:0:198:EmberEngine:Reduce:generate:37: rank=198 size=512
+generate
+2132024333:0:171:EmberEngine:Reduce:generate:37: rank=171 size=512
+generate
+2132043533:0:184:EmberEngine:Reduce:generate:37: rank=184 size=512
+generate
+2132058733:0:172:EmberEngine:Reduce:generate:37: rank=172 size=512
+generate
+2132059533:0:167:EmberEngine:Reduce:generate:37: rank=167 size=512
+generate
+2132068333:0:181:EmberEngine:Reduce:generate:37: rank=181 size=512
+generate
+2132069133:0:203:EmberEngine:Reduce:generate:37: rank=203 size=512
+generate
+2132071533:0:261:EmberEngine:Reduce:generate:37: rank=261 size=512
+generate
+2132078733:0:211:EmberEngine:Reduce:generate:37: rank=211 size=512
+generate
+2132081133:0:260:EmberEngine:Reduce:generate:37: rank=260 size=512
+generate
+2132081133:0:264:EmberEngine:Reduce:generate:37: rank=264 size=512
+generate
+2132090733:0:265:EmberEngine:Reduce:generate:37: rank=265 size=512
+generate
+2132091533:0:165:EmberEngine:Reduce:generate:37: rank=165 size=512
+generate
+2132097133:0:223:EmberEngine:Reduce:generate:37: rank=223 size=512
+generate
+2132101133:0:168:EmberEngine:Reduce:generate:37: rank=168 size=512
+generate
+2132102733:0:205:EmberEngine:Reduce:generate:37: rank=205 size=512
+generate
+2132111533:0:177:EmberEngine:Reduce:generate:37: rank=177 size=512
+generate
+2132111533:0:182:EmberEngine:Reduce:generate:37: rank=182 size=512
+generate
+2132121133:0:157:EmberEngine:Reduce:generate:37: rank=157 size=512
+generate
+2132121133:0:161:EmberEngine:Reduce:generate:37: rank=161 size=512
+generate
+2132121933:0:213:EmberEngine:Reduce:generate:37: rank=213 size=512
+generate
+2132130733:0:156:EmberEngine:Reduce:generate:37: rank=156 size=512
+generate
+2132130733:0:166:EmberEngine:Reduce:generate:37: rank=166 size=512
+generate
+2132130733:0:235:EmberEngine:Reduce:generate:37: rank=235 size=512
+generate
+2132136333:0:227:EmberEngine:Reduce:generate:37: rank=227 size=512
+generate
+2132145933:0:200:EmberEngine:Reduce:generate:37: rank=200 size=512
+generate
+2132145933:0:231:EmberEngine:Reduce:generate:37: rank=231 size=512
+generate
+2132155533:0:208:EmberEngine:Reduce:generate:37: rank=208 size=512
+generate
+2132155533:0:237:EmberEngine:Reduce:generate:37: rank=237 size=512
+generate
+2132157933:0:267:EmberEngine:Reduce:generate:37: rank=267 size=512
+generate
+2132163533:0:178:EmberEngine:Reduce:generate:37: rank=178 size=512
+generate
+2132164333:0:189:EmberEngine:Reduce:generate:37: rank=189 size=512
+generate
+2132165133:0:236:EmberEngine:Reduce:generate:37: rank=236 size=512
+generate
+2132172533:0:162:EmberEngine:Reduce:generate:37: rank=162 size=512
+generate
+2132179533:0:229:EmberEngine:Reduce:generate:37: rank=229 size=512
+generate
+2132189133:0:228:EmberEngine:Reduce:generate:37: rank=228 size=512
+generate
+2132189133:0:232:EmberEngine:Reduce:generate:37: rank=232 size=512
+generate
+2132189133:0:238:EmberEngine:Reduce:generate:37: rank=238 size=512
+generate
+2132193133:0:202:EmberEngine:Reduce:generate:37: rank=202 size=512
+generate
+2132198733:0:233:EmberEngine:Reduce:generate:37: rank=233 size=512
+generate
+2132207533:0:190:EmberEngine:Reduce:generate:37: rank=190 size=512
+generate
+2132208333:0:185:EmberEngine:Reduce:generate:37: rank=185 size=512
+generate
+2132216333:0:154:EmberEngine:Reduce:generate:37: rank=154 size=512
+generate
+2132217933:0:210:EmberEngine:Reduce:generate:37: rank=210 size=512
+generate
+2132226133:0:230:EmberEngine:Reduce:generate:37: rank=230 size=512
+generate
+2132232333:0:224:EmberEngine:Reduce:generate:37: rank=224 size=512
+generate
+2132232333:0:234:EmberEngine:Reduce:generate:37: rank=234 size=512
+generate
+2132239533:0:173:EmberEngine:Reduce:generate:37: rank=173 size=512
+generate
+2132241933:0:215:EmberEngine:Reduce:generate:37: rank=215 size=512
+generate
+2132241933:0:225:EmberEngine:Reduce:generate:37: rank=225 size=512
+generate
+2132250733:0:186:EmberEngine:Reduce:generate:37: rank=186 size=512
+generate
+2132273933:0:169:EmberEngine:Reduce:generate:37: rank=169 size=512
+generate
+2132274733:0:174:EmberEngine:Reduce:generate:37: rank=174 size=512
+generate
+2132285133:0:217:EmberEngine:Reduce:generate:37: rank=217 size=512
+generate
+2132285133:0:226:EmberEngine:Reduce:generate:37: rank=226 size=512
+generate
+2132287533:0:262:EmberEngine:Reduce:generate:37: rank=262 size=512
+generate
+2132289133:0:204:EmberEngine:Reduce:generate:37: rank=204 size=512
+generate
+2132294733:0:212:EmberEngine:Reduce:generate:37: rank=212 size=512
+generate
+2132307533:0:266:EmberEngine:Reduce:generate:37: rank=266 size=512
+generate
+2132317933:0:170:EmberEngine:Reduce:generate:37: rank=170 size=512
+generate
+2132318733:0:206:EmberEngine:Reduce:generate:37: rank=206 size=512
+generate
+2132337133:0:158:EmberEngine:Reduce:generate:37: rank=158 size=512
+generate
+2132337933:0:214:EmberEngine:Reduce:generate:37: rank=214 size=512
+generate
+2132373933:0:269:EmberEngine:Reduce:generate:37: rank=269 size=512
+generate
+2132381933:0:271:EmberEngine:Reduce:generate:37: rank=271 size=512
+generate
+2132393933:0:268:EmberEngine:Reduce:generate:37: rank=268 size=512
+generate
+2132398733:0:219:EmberEngine:Reduce:generate:37: rank=219 size=512
+generate
+2132414733:0:221:EmberEngine:Reduce:generate:37: rank=221 size=512
+generate
+2132457933:0:216:EmberEngine:Reduce:generate:37: rank=216 size=512
+generate
+2132501133:0:218:EmberEngine:Reduce:generate:37: rank=218 size=512
+generate
+2132589933:0:270:EmberEngine:Reduce:generate:37: rank=270 size=512
+generate
+2132606733:0:220:EmberEngine:Reduce:generate:37: rank=220 size=512
+generate
+2132608333:0:272:EmberEngine:Reduce:generate:37: rank=272 size=512
+generate
+2132617933:0:273:EmberEngine:Reduce:generate:37: rank=273 size=512
+generate
+2132630733:0:222:EmberEngine:Reduce:generate:37: rank=222 size=512
+generate
+2132637933:0:383:EmberEngine:Reduce:generate:37: rank=383 size=512
+generate
+2132685133:0:275:EmberEngine:Reduce:generate:37: rank=275 size=512
+generate
+2132685133:0:279:EmberEngine:Reduce:generate:37: rank=279 size=512
+generate
+2132833133:0:319:EmberEngine:Reduce:generate:37: rank=319 size=512
+generate
+2132833933:0:274:EmberEngine:Reduce:generate:37: rank=274 size=512
+generate
+2132877933:0:387:EmberEngine:Reduce:generate:37: rank=387 size=512
+generate
+2132901133:0:277:EmberEngine:Reduce:generate:37: rank=277 size=512
+generate
+2132909933:0:287:EmberEngine:Reduce:generate:37: rank=287 size=512
+generate
+2132910733:0:276:EmberEngine:Reduce:generate:37: rank=276 size=512
+generate
+2132910733:0:280:EmberEngine:Reduce:generate:37: rank=280 size=512
+generate
+2132920333:0:281:EmberEngine:Reduce:generate:37: rank=281 size=512
+generate
+2132939533:0:385:EmberEngine:Reduce:generate:37: rank=385 size=512
+generate
+2132949133:0:384:EmberEngine:Reduce:generate:37: rank=384 size=512
+generate
+2132963533:0:295:EmberEngine:Reduce:generate:37: rank=295 size=512
+generate
+2132971533:0:321:EmberEngine:Reduce:generate:37: rank=321 size=512
+generate
+2132987533:0:283:EmberEngine:Reduce:generate:37: rank=283 size=512
+generate
+Bcast: ranks 512, loop 2, bytes 56, latency 1.893 us
+2132999533:0:511:EmberEngine:Reduce:generate:37: rank=511 size=512
+generate
+2133010733:0:296:EmberEngine:Reduce:generate:37: rank=296 size=512
+generate
+2133034733:0:391:EmberEngine:Reduce:generate:37: rank=391 size=512
+generate
+2133040333:0:288:EmberEngine:Reduce:generate:37: rank=288 size=512
+generate
+2133059533:0:327:EmberEngine:Reduce:generate:37: rank=327 size=512
+generate
+2133077933:0:389:EmberEngine:Reduce:generate:37: rank=389 size=512
+generate
+2133093133:0:299:EmberEngine:Reduce:generate:37: rank=299 size=512
+generate
+2133093133:0:311:EmberEngine:Reduce:generate:37: rank=311 size=512
+generate
+2133098733:0:388:EmberEngine:Reduce:generate:37: rank=388 size=512
+generate
+2133110733:0:507:EmberEngine:Reduce:generate:37: rank=507 size=512
+generate
+2133116333:0:329:EmberEngine:Reduce:generate:37: rank=329 size=512
+generate
+2133117133:0:278:EmberEngine:Reduce:generate:37: rank=278 size=512
+generate
+2133126733:0:291:EmberEngine:Reduce:generate:37: rank=291 size=512
+generate
+2133136333:0:300:EmberEngine:Reduce:generate:37: rank=300 size=512
+generate
+2133136333:0:312:EmberEngine:Reduce:generate:37: rank=312 size=512
+generate
+2133136333:0:320:EmberEngine:Reduce:generate:37: rank=320 size=512
+generate
+2133145933:0:282:EmberEngine:Reduce:generate:37: rank=282 size=512
+generate
+2133145933:0:303:EmberEngine:Reduce:generate:37: rank=303 size=512
+generate
+2133153933:0:509:EmberEngine:Reduce:generate:37: rank=509 size=512
+generate
+2133155533:0:386:EmberEngine:Reduce:generate:37: rank=386 size=512
+generate
+2133161133:0:503:EmberEngine:Reduce:generate:37: rank=503 size=512
+generate
+2133163533:0:508:EmberEngine:Reduce:generate:37: rank=508 size=512
+generate
+2133169933:0:292:EmberEngine:Reduce:generate:37: rank=292 size=512
+generate
+2133170733:0:395:EmberEngine:Reduce:generate:37: rank=395 size=512
+generate
+2133188333:0:322:EmberEngine:Reduce:generate:37: rank=322 size=512
+generate
+2133189133:0:304:EmberEngine:Reduce:generate:37: rank=304 size=512
+generate
+2133194733:0:504:EmberEngine:Reduce:generate:37: rank=504 size=512
+generate
+2133197933:0:297:EmberEngine:Reduce:generate:37: rank=297 size=512
+generate
+2133197933:0:510:EmberEngine:Reduce:generate:37: rank=510 size=512
+generate
+2133203533:0:285:EmberEngine:Reduce:generate:37: rank=285 size=512
+generate
+2133213133:0:284:EmberEngine:Reduce:generate:37: rank=284 size=512
+generate
+2133217933:0:505:EmberEngine:Reduce:generate:37: rank=505 size=512
+generate
+2133222733:0:289:EmberEngine:Reduce:generate:37: rank=289 size=512
+generate
+2133222733:0:315:EmberEngine:Reduce:generate:37: rank=315 size=512
+generate
+2133222733:0:323:EmberEngine:Reduce:generate:37: rank=323 size=512
+generate
+2133222733:0:375:EmberEngine:Reduce:generate:37: rank=375 size=512
+generate
+2133241133:0:298:EmberEngine:Reduce:generate:37: rank=298 size=512
+generate
+2133257133:0:506:EmberEngine:Reduce:generate:37: rank=506 size=512
+generate
+2133260333:0:393:EmberEngine:Reduce:generate:37: rank=393 size=512
+generate
+2133265933:0:316:EmberEngine:Reduce:generate:37: rank=316 size=512
+generate
+2133265933:0:377:EmberEngine:Reduce:generate:37: rank=377 size=512
+generate
+2133273933:0:325:EmberEngine:Reduce:generate:37: rank=325 size=512
+generate
+2133274733:0:328:EmberEngine:Reduce:generate:37: rank=328 size=512
+generate
+2133275533:0:290:EmberEngine:Reduce:generate:37: rank=290 size=512
+generate
+2133275533:0:307:EmberEngine:Reduce:generate:37: rank=307 size=512
+generate
+2133275533:0:376:EmberEngine:Reduce:generate:37: rank=376 size=512
+generate
+2133279533:0:392:EmberEngine:Reduce:generate:37: rank=392 size=512
+generate
+2133285133:0:447:EmberEngine:Reduce:generate:37: rank=447 size=512
+generate
+2133299533:0:301:EmberEngine:Reduce:generate:37: rank=301 size=512
+generate
+2133300333:0:390:EmberEngine:Reduce:generate:37: rank=390 size=512
+generate
+2133309133:0:378:EmberEngine:Reduce:generate:37: rank=378 size=512
+generate
+2133317933:0:308:EmberEngine:Reduce:generate:37: rank=308 size=512
+generate
+2133317933:0:330:EmberEngine:Reduce:generate:37: rank=330 size=512
+generate
+2133327533:0:313:EmberEngine:Reduce:generate:37: rank=313 size=512
+generate
+2133342733:0:293:EmberEngine:Reduce:generate:37: rank=293 size=512
+generate
+2133343533:0:499:EmberEngine:Reduce:generate:37: rank=499 size=512
+generate
+2133347533:0:302:EmberEngine:Reduce:generate:37: rank=302 size=512
+generate
+2133352333:0:379:EmberEngine:Reduce:generate:37: rank=379 size=512
+generate
+2133361933:0:314:EmberEngine:Reduce:generate:37: rank=314 size=512
+generate
+2133370733:0:331:EmberEngine:Reduce:generate:37: rank=331 size=512
+generate
+2133371533:0:305:EmberEngine:Reduce:generate:37: rank=305 size=512
+generate
+2133371533:0:397:EmberEngine:Reduce:generate:37: rank=397 size=512
+generate
+2133376333:0:399:EmberEngine:Reduce:generate:37: rank=399 size=512
+generate
+2133381133:0:501:EmberEngine:Reduce:generate:37: rank=501 size=512
+generate
+2133385933:0:294:EmberEngine:Reduce:generate:37: rank=294 size=512
+generate
+2133386733:0:495:EmberEngine:Reduce:generate:37: rank=495 size=512
+generate
+2133390733:0:500:EmberEngine:Reduce:generate:37: rank=500 size=512
+generate
+2133395533:0:381:EmberEngine:Reduce:generate:37: rank=381 size=512
+generate
+2133405133:0:380:EmberEngine:Reduce:generate:37: rank=380 size=512
+generate
+2133409133:0:396:EmberEngine:Reduce:generate:37: rank=396 size=512
+generate
+2133413933:0:333:EmberEngine:Reduce:generate:37: rank=333 size=512
+generate
+2133414733:0:306:EmberEngine:Reduce:generate:37: rank=306 size=512
+generate
+2133414733:0:497:EmberEngine:Reduce:generate:37: rank=497 size=512
+generate
+2133419533:0:286:EmberEngine:Reduce:generate:37: rank=286 size=512
+generate
+2133420333:0:449:EmberEngine:Reduce:generate:37: rank=449 size=512
+generate
+2133424333:0:335:EmberEngine:Reduce:generate:37: rank=335 size=512
+generate
+2133424333:0:496:EmberEngine:Reduce:generate:37: rank=496 size=512
+generate
+2133425133:0:502:EmberEngine:Reduce:generate:37: rank=502 size=512
+generate
+2133438733:0:317:EmberEngine:Reduce:generate:37: rank=317 size=512
+generate
+2133438733:0:324:EmberEngine:Reduce:generate:37: rank=324 size=512
+generate
+2133438733:0:382:EmberEngine:Reduce:generate:37: rank=382 size=512
+generate
+2133453933:0:498:EmberEngine:Reduce:generate:37: rank=498 size=512
+generate
+2133457133:0:367:EmberEngine:Reduce:generate:37: rank=367 size=512
+generate
+2133467533:0:337:EmberEngine:Reduce:generate:37: rank=337 size=512
+generate
+2133471533:0:359:EmberEngine:Reduce:generate:37: rank=359 size=512
+generate
+2133476333:0:394:EmberEngine:Reduce:generate:37: rank=394 size=512
+generate
+2133481933:0:318:EmberEngine:Reduce:generate:37: rank=318 size=512
+generate
+2133490733:0:309:EmberEngine:Reduce:generate:37: rank=309 size=512
+generate
+2133490733:0:326:EmberEngine:Reduce:generate:37: rank=326 size=512
+generate
+2133497133:0:455:EmberEngine:Reduce:generate:37: rank=455 size=512
+generate
+2133497133:0:491:EmberEngine:Reduce:generate:37: rank=491 size=512
+generate
+2133500333:0:368:EmberEngine:Reduce:generate:37: rank=368 size=512
+generate
+2133506733:0:403:EmberEngine:Reduce:generate:37: rank=403 size=512
+generate
+2133514733:0:360:EmberEngine:Reduce:generate:37: rank=360 size=512
+generate
+2133516333:0:451:EmberEngine:Reduce:generate:37: rank=451 size=512
+generate
+2133519533:0:369:EmberEngine:Reduce:generate:37: rank=369 size=512
+generate
+2133524333:0:361:EmberEngine:Reduce:generate:37: rank=361 size=512
+generate
+2133533933:0:310:EmberEngine:Reduce:generate:37: rank=310 size=512
+generate
+2133533933:0:370:EmberEngine:Reduce:generate:37: rank=370 size=512
+generate
+2133540333:0:492:EmberEngine:Reduce:generate:37: rank=492 size=512
+generate
+2133549933:0:487:EmberEngine:Reduce:generate:37: rank=487 size=512
+generate
+2133549933:0:493:EmberEngine:Reduce:generate:37: rank=493 size=512
+generate
+2133557933:0:343:EmberEngine:Reduce:generate:37: rank=343 size=512
+generate
+2133559533:0:362:EmberEngine:Reduce:generate:37: rank=362 size=512
+generate
+2133559533:0:453:EmberEngine:Reduce:generate:37: rank=453 size=512
+generate
+2133559533:0:457:EmberEngine:Reduce:generate:37: rank=457 size=512
+generate
+2133578733:0:371:EmberEngine:Reduce:generate:37: rank=371 size=512
+generate
+2133586733:0:332:EmberEngine:Reduce:generate:37: rank=332 size=512
+generate
+2133586733:0:494:EmberEngine:Reduce:generate:37: rank=494 size=512
+generate
+2133587533:0:398:EmberEngine:Reduce:generate:37: rank=398 size=512
+generate
+2133587533:0:448:EmberEngine:Reduce:generate:37: rank=448 size=512
+generate
+2133592333:0:345:EmberEngine:Reduce:generate:37: rank=345 size=512
+generate
+2133593133:0:488:EmberEngine:Reduce:generate:37: rank=488 size=512
+generate
+2133596333:0:401:EmberEngine:Reduce:generate:37: rank=401 size=512
+generate
+2133601933:0:351:EmberEngine:Reduce:generate:37: rank=351 size=512
+generate
+2133608333:0:489:EmberEngine:Reduce:generate:37: rank=489 size=512
+generate
+2133611533:0:363:EmberEngine:Reduce:generate:37: rank=363 size=512
+generate
+2133612333:0:373:EmberEngine:Reduce:generate:37: rank=373 size=512
+generate
+2133614733:0:400:EmberEngine:Reduce:generate:37: rank=400 size=512
+generate
+2133621133:0:334:EmberEngine:Reduce:generate:37: rank=334 size=512
+generate
+2133621133:0:372:EmberEngine:Reduce:generate:37: rank=372 size=512
+generate
+2133626733:0:459:EmberEngine:Reduce:generate:37: rank=459 size=512
+generate
+2133636333:0:450:EmberEngine:Reduce:generate:37: rank=450 size=512
+generate
+2133645133:0:364:EmberEngine:Reduce:generate:37: rank=364 size=512
+generate
+2133649133:0:336:EmberEngine:Reduce:generate:37: rank=336 size=512
+generate
+2133651533:0:490:EmberEngine:Reduce:generate:37: rank=490 size=512
+generate
+2133653933:0:374:EmberEngine:Reduce:generate:37: rank=374 size=512
+generate
+2133663533:0:365:EmberEngine:Reduce:generate:37: rank=365 size=512
+generate
+2133669933:0:479:EmberEngine:Reduce:generate:37: rank=479 size=512
+generate
+2133673133:0:461:EmberEngine:Reduce:generate:37: rank=461 size=512
+generate
+2133679533:0:463:EmberEngine:Reduce:generate:37: rank=463 size=512
+generate
+2133688333:0:366:EmberEngine:Reduce:generate:37: rank=366 size=512
+generate
+2133689133:0:407:EmberEngine:Reduce:generate:37: rank=407 size=512
+generate
+2133689133:0:443:EmberEngine:Reduce:generate:37: rank=443 size=512
+generate
+2133692333:0:338:EmberEngine:Reduce:generate:37: rank=338 size=512
+generate
+2133713133:0:456:EmberEngine:Reduce:generate:37: rank=456 size=512
+generate
+2133722733:0:465:EmberEngine:Reduce:generate:37: rank=465 size=512
+generate
+2133725933:0:339:EmberEngine:Reduce:generate:37: rank=339 size=512
+generate
+2133726733:0:405:EmberEngine:Reduce:generate:37: rank=405 size=512
+generate
+2133731533:0:415:EmberEngine:Reduce:generate:37: rank=415 size=512
+generate
+2133732333:0:435:EmberEngine:Reduce:generate:37: rank=435 size=512
+generate
+2133732333:0:444:EmberEngine:Reduce:generate:37: rank=444 size=512
+generate
+2133733133:0:452:EmberEngine:Reduce:generate:37: rank=452 size=512
+generate
+2133740333:0:352:EmberEngine:Reduce:generate:37: rank=352 size=512
+generate
+2133741933:0:427:EmberEngine:Reduce:generate:37: rank=427 size=512
+generate
+2133749933:0:353:EmberEngine:Reduce:generate:37: rank=353 size=512
+generate
+2133759533:0:404:EmberEngine:Reduce:generate:37: rank=404 size=512
+generate
+2133760333:0:439:EmberEngine:Reduce:generate:37: rank=439 size=512
+generate
+2133760333:0:483:EmberEngine:Reduce:generate:37: rank=483 size=512
+generate
+2133765933:0:458:EmberEngine:Reduce:generate:37: rank=458 size=512
+generate
+2133769133:0:341:EmberEngine:Reduce:generate:37: rank=341 size=512
+generate
+2133775533:0:431:EmberEngine:Reduce:generate:37: rank=431 size=512
+generate
+2133775533:0:436:EmberEngine:Reduce:generate:37: rank=436 size=512
+generate
+2133775533:0:454:EmberEngine:Reduce:generate:37: rank=454 size=512
+generate
+2133782733:0:344:EmberEngine:Reduce:generate:37: rank=344 size=512
+generate
+2133785133:0:423:EmberEngine:Reduce:generate:37: rank=423 size=512
+generate
+2133785133:0:428:EmberEngine:Reduce:generate:37: rank=428 size=512
+generate
+2133793133:0:354:EmberEngine:Reduce:generate:37: rank=354 size=512
+generate
+2133794733:0:419:EmberEngine:Reduce:generate:37: rank=419 size=512
+generate
+2133799533:0:480:EmberEngine:Reduce:generate:37: rank=480 size=512
+generate
+2133800333:0:485:EmberEngine:Reduce:generate:37: rank=485 size=512
+generate
+2133802733:0:440:EmberEngine:Reduce:generate:37: rank=440 size=512
+generate
+2133809133:0:402:EmberEngine:Reduce:generate:37: rank=402 size=512
+generate
+2133809133:0:411:EmberEngine:Reduce:generate:37: rank=411 size=512
+generate
+2133809933:0:484:EmberEngine:Reduce:generate:37: rank=484 size=512
+generate
+2133817933:0:346:EmberEngine:Reduce:generate:37: rank=346 size=512
+generate
+2133817933:0:355:EmberEngine:Reduce:generate:37: rank=355 size=512
+generate
+2133828333:0:432:EmberEngine:Reduce:generate:37: rank=432 size=512
+generate
+2133828333:0:467:EmberEngine:Reduce:generate:37: rank=467 size=512
+generate
+2133828333:0:481:EmberEngine:Reduce:generate:37: rank=481 size=512
+generate
+2133837133:0:471:EmberEngine:Reduce:generate:37: rank=471 size=512
+generate
+2133837133:0:486:EmberEngine:Reduce:generate:37: rank=486 size=512
+generate
+2133837933:0:420:EmberEngine:Reduce:generate:37: rank=420 size=512
+generate
+2133837933:0:424:EmberEngine:Reduce:generate:37: rank=424 size=512
+generate
+2133842733:0:460:EmberEngine:Reduce:generate:37: rank=460 size=512
+generate
+2133852333:0:469:EmberEngine:Reduce:generate:37: rank=469 size=512
+generate
+2133859533:0:347:EmberEngine:Reduce:generate:37: rank=347 size=512
+generate
+2133861133:0:356:EmberEngine:Reduce:generate:37: rank=356 size=512
+generate
+2133861933:0:416:EmberEngine:Reduce:generate:37: rank=416 size=512
+generate
+2133871533:0:473:EmberEngine:Reduce:generate:37: rank=473 size=512
+generate
+2133877133:0:482:EmberEngine:Reduce:generate:37: rank=482 size=512
+generate
+2133880333:0:357:EmberEngine:Reduce:generate:37: rank=357 size=512
+generate
+2133889933:0:462:EmberEngine:Reduce:generate:37: rank=462 size=512
+generate
+2133894733:0:349:EmberEngine:Reduce:generate:37: rank=349 size=512
+generate
+2133895533:0:464:EmberEngine:Reduce:generate:37: rank=464 size=512
+generate
+2133905133:0:445:EmberEngine:Reduce:generate:37: rank=445 size=512
+generate
+2133909133:0:409:EmberEngine:Reduce:generate:37: rank=409 size=512
+generate
+2133913133:0:358:EmberEngine:Reduce:generate:37: rank=358 size=512
+generate
+2133918733:0:408:EmberEngine:Reduce:generate:37: rank=408 size=512
+generate
+2133937133:0:340:EmberEngine:Reduce:generate:37: rank=340 size=512
+generate
+2133941933:0:466:EmberEngine:Reduce:generate:37: rank=466 size=512
+generate
+2133942733:0:406:EmberEngine:Reduce:generate:37: rank=406 size=512
+generate
+2133948333:0:446:EmberEngine:Reduce:generate:37: rank=446 size=512
+generate
+2133948333:0:475:EmberEngine:Reduce:generate:37: rank=475 size=512
+generate
+2133961133:0:437:EmberEngine:Reduce:generate:37: rank=437 size=512
+generate
+2133967533:0:429:EmberEngine:Reduce:generate:37: rank=429 size=512
+generate
+2133976333:0:441:EmberEngine:Reduce:generate:37: rank=441 size=512
+generate
+2133981133:0:342:EmberEngine:Reduce:generate:37: rank=342 size=512
+generate
+2133981933:0:477:EmberEngine:Reduce:generate:37: rank=477 size=512
+generate
+2133991533:0:433:EmberEngine:Reduce:generate:37: rank=433 size=512
+generate
+2133991533:0:438:EmberEngine:Reduce:generate:37: rank=438 size=512
+generate
+2134001133:0:425:EmberEngine:Reduce:generate:37: rank=425 size=512
+generate
+2134001133:0:430:EmberEngine:Reduce:generate:37: rank=430 size=512
+generate
+2134010733:0:442:EmberEngine:Reduce:generate:37: rank=442 size=512
+generate
+2134020333:0:421:EmberEngine:Reduce:generate:37: rank=421 size=512
+generate
+2134025133:0:413:EmberEngine:Reduce:generate:37: rank=413 size=512
+generate
+2134034733:0:412:EmberEngine:Reduce:generate:37: rank=412 size=512
+generate
+2134034733:0:417:EmberEngine:Reduce:generate:37: rank=417 size=512
+generate
+2134034733:0:434:EmberEngine:Reduce:generate:37: rank=434 size=512
+generate
+2134037933:0:468:EmberEngine:Reduce:generate:37: rank=468 size=512
+generate
+2134044333:0:426:EmberEngine:Reduce:generate:37: rank=426 size=512
+generate
+2134053133:0:472:EmberEngine:Reduce:generate:37: rank=472 size=512
+generate
+2134053933:0:422:EmberEngine:Reduce:generate:37: rank=422 size=512
+generate
+2134068333:0:470:EmberEngine:Reduce:generate:37: rank=470 size=512
+generate
+2134075533:0:348:EmberEngine:Reduce:generate:37: rank=348 size=512
+generate
+2134077933:0:418:EmberEngine:Reduce:generate:37: rank=418 size=512
+generate
+2134087533:0:474:EmberEngine:Reduce:generate:37: rank=474 size=512
+generate
+2134110733:0:350:EmberEngine:Reduce:generate:37: rank=350 size=512
+generate
+2134125133:0:410:EmberEngine:Reduce:generate:37: rank=410 size=512
+generate
+2134164333:0:476:EmberEngine:Reduce:generate:37: rank=476 size=512
+generate
+2134197933:0:478:EmberEngine:Reduce:generate:37: rank=478 size=512
+generate
+2134241133:0:414:EmberEngine:Reduce:generate:37: rank=414 size=512
+Allgather: ranks 512, loop 3, bytes 12, latency 15.510 us
+Barrier: ranks 512, loop 99, latency 23.044 us
+4499078733:0:0:EmberEngine:PingPong:generate:65: rank=0 size=512
+rank2=1 messageSize=256 iterations=35
+4499921933:0:1:EmberEngine:PingPong:generate:65: rank=1 size=512
+4503276333:0:16:EmberEngine:PingPong:generate:65: rank=16 size=512
+4507767533:0:256:EmberEngine:PingPong:generate:65: rank=256 size=512
+4508999533:0:511:EmberEngine:PingPong:generate:65: rank=511 size=512
+PingPong: otherRank 1, total time 63.474 us, loop 35, bufLen 256, latency 0.907 us. bandwidth 0.282320 GB/s
+4562552333:0:0:EmberEngine:PingPong:generate:65: rank=0 size=512
+rank2=16 messageSize=256 iterations=35
+PingPong: otherRank 16, total time 111.608 us, loop 35, bufLen 256, latency 1.594 us. bandwidth 0.160562 GB/s
+4674160333:0:0:EmberEngine:PingPong:generate:65: rank=0 size=512
+rank2=256 messageSize=256 iterations=35
+PingPong: otherRank 256, total time 111.608 us, loop 35, bufLen 256, latency 1.594 us. bandwidth 0.160562 GB/s
+4785768333:0:0:EmberEngine:PingPong:generate:65: rank=0 size=512
+rank2=511 messageSize=256 iterations=35
+PingPong: otherRank 511, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+Simulation is complete, simulated time: 4.88186 ms

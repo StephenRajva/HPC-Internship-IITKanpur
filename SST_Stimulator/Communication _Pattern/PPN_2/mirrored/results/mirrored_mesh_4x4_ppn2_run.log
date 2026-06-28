@@ -1,0 +1,13 @@
+==================================================
+ Pattern           : mirrored
+ Topology          : Mesh 4x4  (16 routers, 32 nodes, PPN=2)
+ Exchange          : rank 0  <->  rank 31
+ Representative hops: 6  (Manhattan dist between routers)
+ PPN (ranks/router): 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/Communication _Pattern/Communication_Pattern_PPN1/PPN_2/mirrored/results/mirrored_mesh_4x4_ppn2_nodes32_stats.csv
+==================================================
+180000:0:31:EmberEngine:PingPong:generate:65: rank=31 size=32
+180000:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=31 messageSize=256 iterations=35
+PingPong: otherRank 31, total time 99.511 us, loop 35, bufLen 256, latency 1.422 us. bandwidth 0.180081 GB/s
+Simulation is complete, simulated time: 107.988 us

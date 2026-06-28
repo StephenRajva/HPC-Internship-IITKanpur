@@ -1,0 +1,44 @@
+==================================================
+ Topology          : Dragonfly (size 4)
+ hosts_per_router  : 2
+ routers_per_group : 2
+ num_groups        : 2
+ Total routers     : 4
+ Total nodes       : 8
+ Total MPI ranks   : 8
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/DragonFly/PPN_2/results/dragonfly_4_ppn2_nodes8_stats.csv
+==================================================
+Allreduce: ranks 8, loop 92, 1 double(s), latency 5.507 us
+generate
+510115133:0:0:EmberEngine:Reduce:generate:37: rank=0 size=8
+generate
+511458333:0:1:EmberEngine:Reduce:generate:37: rank=1 size=8
+generate
+511674333:0:2:EmberEngine:Reduce:generate:37: rank=2 size=8
+generate
+512257533:0:3:EmberEngine:Reduce:generate:37: rank=3 size=8
+generate
+512429933:0:5:EmberEngine:Reduce:generate:37: rank=5 size=8
+generate
+512430733:0:4:EmberEngine:Reduce:generate:37: rank=4 size=8
+generate
+512646733:0:6:EmberEngine:Reduce:generate:37: rank=6 size=8
+generate
+Bcast: ranks 8, loop 2, bytes 56, latency 1.893 us
+513057133:0:7:EmberEngine:Reduce:generate:37: rank=7 size=8
+Allgather: ranks 8, loop 3, bytes 12, latency 4.771 us
+Barrier: ranks 8, loop 99, latency 5.512 us
+1099297933:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=1 messageSize=256 iterations=35
+1100141133:0:1:EmberEngine:PingPong:generate:65: rank=1 size=8
+1101113133:0:4:EmberEngine:PingPong:generate:65: rank=4 size=8
+1101740333:0:7:EmberEngine:PingPong:generate:65: rank=7 size=8
+PingPong: otherRank 1, total time 63.474 us, loop 35, bufLen 256, latency 0.907 us. bandwidth 0.282320 GB/s
+1162771533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=4 messageSize=256 iterations=35
+PingPong: otherRank 4, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+1232043533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=7 messageSize=256 iterations=35
+PingPong: otherRank 7, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+Simulation is complete, simulated time: 1.31194 ms

@@ -1,0 +1,13 @@
+==================================================
+ Pattern           : adjacent
+ Topology          : Mesh 2x2  (4 routers, 8 nodes, PPN=2)
+ Exchange          : rank 0  <->  rank 1
+ Representative hops: 0  (Manhattan dist between routers)
+ PPN (ranks/router): 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/Communication _Pattern/Communication_Pattern_PPN1/PPN_2/adjacent/results/adjacent_mesh_2x2_ppn2_nodes8_stats.csv
+==================================================
+180000:0:1:EmberEngine:PingPong:generate:65: rank=1 size=8
+180000:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=1 messageSize=256 iterations=35
+PingPong: otherRank 1, total time 63.223 us, loop 35, bufLen 256, latency 0.903 us. bandwidth 0.283441 GB/s
+Simulation is complete, simulated time: 66.9459 us

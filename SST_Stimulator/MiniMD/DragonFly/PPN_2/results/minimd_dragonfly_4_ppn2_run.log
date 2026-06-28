@@ -1,0 +1,50 @@
+==================================================
+ Topology          : Dragonfly (size 4) - MiniMD
+ hosts_per_router  : 2
+ routers_per_group : 2
+ num_groups        : 2
+ Total routers     : 4
+ Total nodes       : 8
+ Total MPI ranks   : 8
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniMD/DragonFly/PPN_2/results/minimd_dragonfly_4_ppn2_nodes8_stats.csv
+==================================================
+180000:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=8
+180000:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=8
+180000:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=8
+180000:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=8
+180000:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=8
+180000:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=8
+180000:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=8
+180000:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=8
+161476956324:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=8
+161476956324:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=8
+AllPingPong: total time 161479.766 us, loop 325, bufLen 20510, latency 248.430 us. bandwidth 0.082558 GB/s
+161479946840:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=8
+161479946840:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=8
+161737554558:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=8
+161737554558:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=8
+161740411674:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=8
+161740411674:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=8
+317174430808:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=8
+317174430808:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=8
+AllPingPong: total time 155695.826 us, loop 325, bufLen 9000, latency 239.532 us. bandwidth 0.037573 GB/s
+317175772907:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=8
+317175772907:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=8
+317521472242:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=8
+317521472242:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=8
+317522947741:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=8
+317522947741:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=8
+478657028438:0:4:EmberEngine:AllPingPong:generate:59: rank=4 size=8
+478657028438:0:7:EmberEngine:AllPingPong:generate:59: rank=7 size=8
+AllPingPong: total time 161484.246 us, loop 325, bufLen 20510, latency 248.437 us. bandwidth 0.082556 GB/s
+478660018954:0:0:EmberEngine:AllPingPong:generate:59: rank=0 size=8
+478660018954:0:3:EmberEngine:AllPingPong:generate:59: rank=3 size=8
+479264290584:0:5:EmberEngine:AllPingPong:generate:59: rank=5 size=8
+479264290584:0:6:EmberEngine:AllPingPong:generate:59: rank=6 size=8
+479267147700:0:1:EmberEngine:AllPingPong:generate:59: rank=1 size=8
+479267147700:0:2:EmberEngine:AllPingPong:generate:59: rank=2 size=8
+AllPingPong: total time 155695.827 us, loop 325, bufLen 9000, latency 239.532 us. bandwidth 0.037573 GB/s
+Allreduce: ranks 8, loop 40, 1 double(s), latency 2473.533 us
+Barrier: ranks 8, loop 15, latency 1397.265 us
+Simulation is complete, simulated time: 754.264 ms

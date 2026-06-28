@@ -1,0 +1,94 @@
+==================================================
+ Mesh shape        : 4x4
+ Routers           : 16
+ Nodes per router  : 2  (local_ports)
+ Total nodes       : 32
+ Total MPI ranks   : 32
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/Mesh/PPN_2/results/mesh_4x4_ppn2_nodes32_stats.csv
+==================================================
+Allreduce: ranks 32, loop 92, 1 double(s), latency 9.587 us
+generate
+885489533:0:0:EmberEngine:Reduce:generate:37: rank=0 size=32
+generate
+886832733:0:1:EmberEngine:Reduce:generate:37: rank=1 size=32
+generate
+887048733:0:2:EmberEngine:Reduce:generate:37: rank=2 size=32
+generate
+887762333:0:3:EmberEngine:Reduce:generate:37: rank=3 size=32
+generate
+887978333:0:5:EmberEngine:Reduce:generate:37: rank=5 size=32
+generate
+887987733:0:4:EmberEngine:Reduce:generate:37: rank=4 size=32
+generate
+888194933:0:6:EmberEngine:Reduce:generate:37: rank=6 size=32
+generate
+888778333:0:7:EmberEngine:Reduce:generate:37: rank=7 size=32
+generate
+888908533:0:8:EmberEngine:Reduce:generate:37: rank=8 size=32
+generate
+888994333:0:11:EmberEngine:Reduce:generate:37: rank=11 size=32
+generate
+889038133:0:12:EmberEngine:Reduce:generate:37: rank=12 size=32
+generate
+889090133:0:9:EmberEngine:Reduce:generate:37: rank=9 size=32
+generate
+889133933:0:10:EmberEngine:Reduce:generate:37: rank=10 size=32
+generate
+889210933:0:13:EmberEngine:Reduce:generate:37: rank=13 size=32
+generate
+889254733:0:14:EmberEngine:Reduce:generate:37: rank=14 size=32
+generate
+889577533:0:15:EmberEngine:Reduce:generate:37: rank=15 size=32
+generate
+889577933:0:17:EmberEngine:Reduce:generate:37: rank=17 size=32
+generate
+889794733:0:18:EmberEngine:Reduce:generate:37: rank=18 size=32
+generate
+889836333:0:23:EmberEngine:Reduce:generate:37: rank=23 size=32
+generate
+889845933:0:19:EmberEngine:Reduce:generate:37: rank=19 size=32
+generate
+889889933:0:21:EmberEngine:Reduce:generate:37: rank=21 size=32
+generate
+889923533:0:16:EmberEngine:Reduce:generate:37: rank=16 size=32
+generate
+889966733:0:25:EmberEngine:Reduce:generate:37: rank=25 size=32
+generate
+889976333:0:24:EmberEngine:Reduce:generate:37: rank=24 size=32
+generate
+890010733:0:26:EmberEngine:Reduce:generate:37: rank=26 size=32
+generate
+890053133:0:27:EmberEngine:Reduce:generate:37: rank=27 size=32
+generate
+890062733:0:20:EmberEngine:Reduce:generate:37: rank=20 size=32
+generate
+890097133:0:29:EmberEngine:Reduce:generate:37: rank=29 size=32
+generate
+890105933:0:22:EmberEngine:Reduce:generate:37: rank=22 size=32
+generate
+890106733:0:28:EmberEngine:Reduce:generate:37: rank=28 size=32
+generate
+890140333:0:30:EmberEngine:Reduce:generate:37: rank=30 size=32
+generate
+Bcast: ranks 32, loop 2, bytes 56, latency 1.893 us
+890463533:0:31:EmberEngine:Reduce:generate:37: rank=31 size=32
+Allgather: ranks 32, loop 3, bytes 12, latency 6.553 us
+Barrier: ranks 32, loop 99, latency 9.614 us
+1890917933:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=1 messageSize=256 iterations=35
+1891761133:0:1:EmberEngine:PingPong:generate:65: rank=1 size=32
+1892910733:0:4:EmberEngine:PingPong:generate:65: rank=4 size=32
+1894851533:0:16:EmberEngine:PingPong:generate:65: rank=16 size=32
+1895392333:0:31:EmberEngine:PingPong:generate:65: rank=31 size=32
+PingPong: otherRank 1, total time 63.474 us, loop 35, bufLen 256, latency 0.907 us. bandwidth 0.282320 GB/s
+1954391533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=4 messageSize=256 iterations=35
+PingPong: otherRank 4, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+2029711533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=16 messageSize=256 iterations=35
+PingPong: otherRank 16, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+2105031533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=32
+rank2=31 messageSize=256 iterations=35
+PingPong: otherRank 31, total time 99.512 us, loop 35, bufLen 256, latency 1.422 us. bandwidth 0.180079 GB/s
+Simulation is complete, simulated time: 2.21284 ms

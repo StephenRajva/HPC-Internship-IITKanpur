@@ -1,0 +1,46 @@
+==================================================
+ Topology          : Torus 2x2
+ Routers           : 4
+ Nodes per router  : 2  (local_ports)
+ Total nodes       : 8
+ Total MPI ranks   : 8
+ PPN (ranks/node)  : 2   <-- should be 2
+ Stats CSV         : /Users/stephenrajva/Downloads/HPC-Upload 2/SST_Stimulator/MiniFE/Torus/PPN_2/results/torus_2x2_ppn2_nodes8_stats.csv
+==================================================
+Allreduce: ranks 8, loop 92, 1 double(s), latency 5.507 us
+generate
+510120733:0:0:EmberEngine:Reduce:generate:37: rank=0 size=8
+generate
+511463933:0:1:EmberEngine:Reduce:generate:37: rank=1 size=8
+generate
+511679933:0:2:EmberEngine:Reduce:generate:37: rank=2 size=8
+generate
+512263133:0:3:EmberEngine:Reduce:generate:37: rank=3 size=8
+generate
+512263533:0:4:EmberEngine:Reduce:generate:37: rank=4 size=8
+generate
+512435533:0:5:EmberEngine:Reduce:generate:37: rank=5 size=8
+generate
+512479533:0:6:EmberEngine:Reduce:generate:37: rank=6 size=8
+generate
+Bcast: ranks 8, loop 2, bytes 56, latency 1.893 us
+513062733:0:7:EmberEngine:Reduce:generate:37: rank=7 size=8
+Allgather: ranks 8, loop 3, bytes 12, latency 5.041 us
+Barrier: ranks 8, loop 99, latency 5.506 us
+1099539533:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=1 messageSize=256 iterations=35
+1100382733:0:1:EmberEngine:PingPong:generate:65: rank=1 size=8
+1100598733:0:2:EmberEngine:PingPong:generate:65: rank=2 size=8
+1101181933:0:4:EmberEngine:PingPong:generate:65: rank=4 size=8
+1101981933:0:7:EmberEngine:PingPong:generate:65: rank=7 size=8
+PingPong: otherRank 1, total time 63.474 us, loop 35, bufLen 256, latency 0.907 us. bandwidth 0.282320 GB/s
+1163013133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=2 messageSize=256 iterations=35
+PingPong: otherRank 2, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+1232285133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=4 messageSize=256 iterations=35
+PingPong: otherRank 4, total time 69.272 us, loop 35, bufLen 256, latency 0.990 us. bandwidth 0.258690 GB/s
+1301557133:0:0:EmberEngine:PingPong:generate:65: rank=0 size=8
+rank2=7 messageSize=256 iterations=35
+PingPong: otherRank 7, total time 75.320 us, loop 35, bufLen 256, latency 1.076 us. bandwidth 0.237918 GB/s
+Simulation is complete, simulated time: 1.38146 ms
